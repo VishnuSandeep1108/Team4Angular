@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -11,7 +10,6 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent,
     HeaderComponent,
     FooterComponent
   ],
