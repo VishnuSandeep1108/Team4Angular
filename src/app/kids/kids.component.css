@@ -44,7 +44,6 @@ body{
     margin-right: 10px;
     border-bottom: 5px solid transparent;
     transition: border-bottom 0.1s linear;
-    color: black;
 }
 
 .nav-link:hover{
