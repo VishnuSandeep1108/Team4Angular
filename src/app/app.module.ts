@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { MensComponent } from './mens/mens.component';
+import { WomensComponent } from './womens/womens.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MensComponent
+    MensComponent,
+    WomensComponent
   ],
   imports: [
     BrowserModule
