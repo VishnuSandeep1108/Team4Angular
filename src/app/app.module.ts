@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { WishlistComponent } from './wishlist/wishlist.component';
@@ -12,6 +14,17 @@ import { KidsComponent } from './kids/kids.component';
 import { CardPage1Component } from './card-page1/card-page1.component';
 import { HomeComponent } from './home/home.component';
 import { FootwearComponent } from './footwear/footwear.component';
+
+const appRoute:Routes = [
+  {path:'',component:LoginComponent},
+  {path:'home',component:HomeComponent},
+  {path:'mens',component:MensComponent},
+  {path:'womens',component:WomensComponent},
+  {path:'kids',component:KidsComponent},
+  {path:'footwear',component:FootwearComponent},
+  {path:'wishlist',component:WishlistComponent},
+  {path:'cartpage',component:CardPage1Component},
+]
 
 @NgModule({
   declarations: [
@@ -28,7 +41,9 @@ import { FootwearComponent } from './footwear/footwear.component';
     FootwearComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoute),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
