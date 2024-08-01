@@ -1,197 +1,111 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-
-body{
-    overflow-x: hidden;
-}
-
-.product-display-root{
-    width: 100vw;
-    /* background-color: rgb(234, 234, 234); */
-}
-
-.navbar{
-    /* z-index: 100; */
-    padding: 20px 20px 20px 60px;
-    background-color: rgb(234, 234, 234);
-    animation: slideDown 1s linear;
-}
-
-.navbar-brand{
-    font-family: "Cinzel Decorative", serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 180%;
-}
-
-.navbar-nav{
-    margin-left: 50%;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-.navbar-nav > form{
-    margin-right: 10px;
-}
-
-.nav-link{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    margin-right: 10px;
-    border-bottom: 5px solid transparent;
-    transition: border-bottom 0.1s linear;
-}
-
-.nav-link:hover{
-    border-bottom-color: black;
-}
-
-
-footer{
-    display: grid;
-    grid-template-columns: 3fr 2fr 3fr;
-    padding: 50px;
-    background-color: gray;
-}
-
-footer h6{
-    color: black;
-    font-weight: bold;
-    font-size: 102%;
-}
-
-.footer-left{
-    padding: 10px;
-    padding-right: 30px;
-}
-
-.footer-center, .footer-right{
-    color: white;
-}
-
-.footer-center > i{
-    color: white;
-    margin: 20px 10px;
-}
-
-.footer-right{
-    width: auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 0px;
-}
-
-.footer-right > ul{
-    list-style: none;
-}
-
-.footer-right > ul > li >a{
-    color: white;
-    text-decoration: none;
-}
-
-::-webkit-scrollbar {
-    width: 1px;
-}
-
-::-webkit-scrollbar:hover{
-    width: 10px;
-}
-
-::-webkit-scrollbar-track{
-    background-color: rgb(234, 234, 234);
-}
+  }
   
-::-webkit-scrollbar-thumb {
+  body {
+    overflow-x: hidden;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  ::-webkit-scrollbar:hover {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(234, 234, 234);
+  }
+  
+  ::-webkit-scrollbar-thumb {
     background-color: #888;
     border-radius: 5px;
   }
   
-::-webkit-scrollbar-track:hover {
-    background: #aaa;
+  ::-webkit-scrollbar-track:hover {
+    background: #d7d7d7;
     border-radius: 5px;
   }
-
-.product-display{
+  
+  .product-display {
     margin: 0 auto;
     width: 100vw;
     /* padding: 30px; */
     /* background: linear-gradient(180deg, rgb(214, 255, 56) 0%, rgba(215, 255, 56, 0.5) 50%, rgb(215, 255, 56, 0) 100%); */
     text-align: center;
     margin: 0 auto;
-}
-
-.product-display > h1{
+  }
+  
+  .product-display > h1 {
     margin: 50px auto;
     font-weight: bold;
     font-family: "Cinzel Decorative", serif;
     font-size: 350%;
     padding: 5px;
-}
-
-.product-display-container{
+  }
+  
+  .product-display-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     width: 90vw;
     padding: 0 50px;
     margin: 0 auto;
-}
-
-.product-display-container > .card > img{
+  }
+  
+  .product-display-container > .card > img {
     height: 95%;
     margin-bottom: 10px;
     transition: transform 1s ease, border-radius 1s ease;
-}
-
-.product-display-container > .card{
+  }
+  
+  .product-display-container > .card {
     /* height: 95%; */
     overflow: hidden;
-}
-
-.card-body.wishlist{
+  }
+  
+  .card-body.wishlist {
     width: 100%;
     display: none;
-}
-
-.card-body.wishlist > .btn{
+  }
+  
+  .card-body.wishlist > .btn {
+    width: 75%;
+    margin: 5px;
     border: 2px solid #f2506b;
-    transition: background-color 0.75s ease, color 0.75s ease;
-}
-
-.card-body.wishlist > .btn:hover{
+    transition: background-color 1s ease, color 1s ease;
+  }
+  
+  .card-body.wishlist > .btn:hover {
     color: #f2506b;
-}
-
-.card-body.productDetails{
+  }
+  
+  .card-body.productDetails {
     margin: 10px;
-}
-
-.strikedPrice{
+  }
+  
+  .strikedPrice {
     font-size: 80%;
     color: gray;
-}
-
-.card:hover > img{
+  }
+  
+  .card:hover > img {
     margin-bottom: 5px;
     transform: scale(1.07);
     border-radius: 0 0 38px 38px;
-}
-
-.card:hover > .productDetails
-{
+  }
+  
+  .card:hover > .productDetails {
     display: none;
-}
-
-.card:hover > .wishlist{
+  }
+  
+  .card:hover > .wishlist {
     display: block;
-}
-
-.shopNew{
+  }
+  
+  .shopNew {
     padding: 10px;
     text-align: center;
     width: 200px;
@@ -199,50 +113,24 @@ footer h6{
     border: 2px solid #f2506b;
     margin: 80px auto;
     transition: background-color 0.75s ease, color 0.75s ease;
-}
-
-.shopNew:hover{
+  }
+  
+  .shopNew:hover {
     background-color: black;
     color: #f2506b;
-}
-
-/* Media Queries */
-
-@media (max-width: 768px) {
-    .product-display-container{
-        grid-template-columns: 1fr;
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 768px) {
+    .product-display-container {
+      grid-template-columns: 1fr;
     }
-
-    .product-display-container .card{
-        display: block;
-        transform: scale(0.7);
-        margin: -40px auto;
+  
+    .product-display-container .card {
+      display: block;
+      transform: scale(0.7);
+      margin: -40px auto;
     }
-
-    .navbar-brand{
-        margin: 0 auto;
-    }
-
-    .navbar-toggler{
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 768px) {
-    footer {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .footer-right {
-        grid-template-columns: 1fr;
-    }
-
-    .footer-right > ul {
-        padding: 0;
-    }
-
-    .footer-left, .footer-center, .footer-right {
-        padding: 20px;
-    }
-}
+  }
+  
