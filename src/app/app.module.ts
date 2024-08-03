@@ -16,8 +16,8 @@ import { HomeComponent } from './home/home.component';
 import { FootwearComponent } from './footwear/footwear.component';
 
 const appRoute:Routes = [
-  {path:'',component:LoginComponent},
-  {path:'home',component:HomeComponent},
+  {path:'',component:HomeComponent},
+  {path:'auth',component:LoginComponent},
   {path:'mens',component:MensComponent},
   {path:'womens',component:WomensComponent},
   {path:'kids',component:KidsComponent},
