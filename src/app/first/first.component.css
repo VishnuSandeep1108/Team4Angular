@@ -8,7 +8,7 @@ body{
 }
 
 .home-container{
-    background-color: rgb(170, 232, 213);
+    background-color: rgb(234, 234, 234);
     /* overflow-x: hidden; */
 }
 
@@ -55,11 +55,9 @@ body{
 }
 
 .categories{
-    width: 90vw;
+    width: 100vw;
     margin: 60px auto 60px auto;
     text-align: center;
-    background-color: beige;
-    border:2px solid gray;
 }
 
 .categories-heading, .women-display-heading, .men-display-heading, .kids-display-heading{
@@ -76,7 +74,7 @@ body{
 
 .categories-grid-item{
     margin: 0 auto;
-    background-color: bisque;
+    background-color: #FDEEE3;
     /* border-radius: 80%; */
 }
 
@@ -104,9 +102,8 @@ body{
 .women-display, .men-display, .kids-display{
     width: 90vw;
     margin: 30px auto;
-    background-color: beige;
+    background-color: white;
     border-radius: 8px;
-    border:2px solid gray;
 }
 
 .women-display-heading, .men-display-heading, .kids-display-heading{

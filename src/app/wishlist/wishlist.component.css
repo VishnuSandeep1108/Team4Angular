@@ -52,15 +52,18 @@
     margin: 0 auto;
     text-align: center;
     padding: 15px;
+    background-color: rgb(201, 239, 228);
+    overflow-x: hidden;
 }
 
 .box {
     padding: 10px;
-    background-color: rgb(234, 234, 234);
+    background-color: beige;
     ;
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:2px solid gray;
 }
 
 .button1 {
@@ -71,7 +74,8 @@
     padding: 10px;
     font-weight: 100;
     transition: color 0.3s ease;
-    width: 80%;
+    width: 60%;
+    margin:2px;
 }
 
 .button2 {
@@ -82,7 +86,7 @@
     padding: 10px;
     font-weight: 100;
 
-    width: 80%;
+    width: 60%;
 }
 
 .box h3 {
@@ -100,9 +104,14 @@ img {
 }
 
 img:hover {
-    transform: scale(1.1);
+    transform: scale(1.001);
+    box-shadow: 1px 1px 10px black;
+    opacity: 1;
 }
-
+img:not(:hover) {
+    opacity: 1;
+    filter: brightness(1);
+}
 @media screen and (max-width: 1200px) {
     .wrapper {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

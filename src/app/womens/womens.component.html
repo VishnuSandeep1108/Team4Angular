@@ -1,3 +1,4 @@
+<app-header></app-header>
 <div class="product-display">
   <h1>Women's Collection</h1>
   <div class="product-display-container">
@@ -12,10 +13,10 @@
         </p>
       </div>
       <div class="card-body wishlist">
-        <a href="Wishlistn.html" class="btn wishlistButton"
+        <a  class="btn wishlistButton"
           ><i class="fa-solid fa-heart"></i> Wishlist</a
         >
-        <a href="cartpage.html" class="btn wishlistButton"
+        <a routerLink="/cartlist" (click)="hello(0)" class="btn wishlistButton"
           ><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a
         >
         <p class="card-text">Size: S</p>

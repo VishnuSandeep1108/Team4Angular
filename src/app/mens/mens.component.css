@@ -36,10 +36,11 @@ body {
   /* background: linear-gradient(180deg, rgb(214, 255, 56) 0%, rgba(215, 255, 56, 0.5) 50%, rgb(215, 255, 56, 0) 100%); */
   text-align: center;
   margin: 0 auto;
+  background-color:  rgb(201, 239, 228);
 }
 
 .product-display > h1 {
-  margin: 50px auto;
+  margin:  auto;
   font-weight: bold;
   font-family: "Cinzel Decorative", serif;
   font-size: 350%;
@@ -57,13 +58,21 @@ body {
 
 .product-display-container > .card > img {
   height: 95%;
-  margin-bottom: 10px;
+  width:90%;
+  margin: 10px;
   transition: transform 1s ease, border-radius 1s ease;
+  height:300px;
+  border:2px solid beige;
 }
 
 .product-display-container > .card {
   /* height: 95%; */
   overflow: hidden;
+  height:450px;
+  background-color: beige;
+  border: 2px solid grey;
+  margin:5px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .card-body.wishlist {
@@ -92,9 +101,12 @@ body {
 }
 
 .card:hover > img {
-  margin-bottom: 5px;
-  transform: scale(1.07);
-  border-radius: 0 0 38px 38px;
+  /* margin-bottom: 5px;
+  transform: scale(1.04);
+  border-radius: 0 0 38px 38px; */
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px black;
+    opacity: 1;
 }
 
 .card:hover > .productDetails {
