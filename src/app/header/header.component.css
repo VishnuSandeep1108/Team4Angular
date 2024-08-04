@@ -3,13 +3,14 @@
     padding: 0;
 }
 
-body{
-    overflow-x: hidden;
-}
-
 .product-display-root{
     width: 100vw;
     /* background-color: rgb(234, 234, 234); */
+}
+
+nav{
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -43,7 +44,7 @@ body{
     font-style: normal;
     margin-right: 10px;
     border-bottom: 5px solid transparent;
-    transition: border-bottom 0.1s linear;
+    transition: border-bottom 0.5s ease-in;
     color: black;
 }
 

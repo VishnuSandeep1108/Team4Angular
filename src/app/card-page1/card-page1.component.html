@@ -3,25 +3,13 @@
         <div class="wrapper">
             <div class="project">
                 <div class="shop">
-                    <div class="box">
-                        <img src="./assets/cart-images/images (3).jpeg" alt="">
+
+                    <div *ngFor="let product of cart" class="box">
+                        <img src={{product.images[0]}} alt="">
                         <div class="content">
-                            <h3>Women's casual spring dress</h3>
+                            <h3>{{product.title}}</h3>
                             <h4> Rs.1499/-</h4>
-                            <h3>Price: Rs. 999/-</h3>
-                            <p class="unit">Quantity: <input type="number" value="1" min="1"></p>
-                        </div>
-                        <p class="btn-area">  k
-                            <i class="fa fa-trash"></i>
-                            <span class="btn2">Remove</span>
-                        </p>
-                    </div>
-                    <div class="box">
-                        <img src="./assets/cart-images/images (5).jpeg" alt="">
-                        <div class="content">
-                            <h3>VOXATI Men's Denim Jacket</h3>
-                            <h4>Rs.1999/-</h4>
-                            <h3>Price: Rs. 899/-</h3>
+                            <h3>Price: Rs. {{product.price}}/-</h3>
                             <p class="unit">Quantity: <input type="number" value="1" min="1"></p>
                         </div>
                         <p class="btn-area">
@@ -29,19 +17,7 @@
                             <span class="btn2">Remove</span>
                         </p>
                     </div>
-                    <div class="box">
-                        <img src="./assets/cart-images/images (4).jpeg" alt="">
-                        <div class="content">
-                            <h3>New Matte Lipstick-chirpy cherry</h3>
-                            <h4>Rs. 899/- </h4>
-                            <h3>Price: Rs. 599/-</h3>
-                            <p class="unit">Quantity: <input type="number" value="1" min="1"></p>
-                        </div>
-                        <p class="btn-area">
-                            <i class="fa fa-trash"></i>
-                            <span class="btn2">Remove</span>
-                        </p>
-                    </div>
+                    
                 </div>
                 <div class="right-bar">
                     <p><span>Subtotal:</span> <span>Rs. 2497/-</span></p>

@@ -3,13 +3,9 @@
     padding: 0;
 }
 
-body{
-    overflow-x: hidden;
-}
-
 .home-container{
     background-color: rgb(234, 234, 234);
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .offers-carousel{

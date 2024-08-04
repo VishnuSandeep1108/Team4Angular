@@ -4,14 +4,15 @@ import { BehaviorSubject } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
+
 export class LoginObsService {
-  public notify = new BehaviorSubject<any>({return:true});
+  public notify = new BehaviorSubject<any>({refresh:true});
   notifyObservable$ = this.notify.asObservable();
 
   constructor() { }
   
   public onLoggingInHandler(data : any)
-  {
-    this.notify.next({return:false});
+  {    
+    this.notify.next(data);
   }
 }

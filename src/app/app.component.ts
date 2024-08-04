@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+
 import { LoginObsService } from './services/login-obs.service';
 
 @Component({
@@ -12,15 +13,8 @@ export class AppComponent {
 
   constructor(private loginObs:LoginObsService){
     this.loginObs.notifyObservable$.subscribe((res)=>{
-      if(res.refresh!=undefined)
-      {
-        console.log("RES.REFRESH: ",res.refresh);
-      
-        if(res.refresh)
-          this.flag=true;
-        else
-          this.flag=false;
-      }
+      console.log("RES: ",res);
+      this.flag = res.refresh;
     })
   }
 }

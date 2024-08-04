@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 import { LoginObsService } from '../services/login-obs.service';
+import { LoginBtnDisplayService } from '../services/login-btn-display.service';
 
 @Component({
   selector: 'app-header',
@@ -8,10 +9,15 @@ import { LoginObsService } from '../services/login-obs.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  constructor(private loginObs:LoginObsService){}
+  loginBtnDisplay:boolean = true;
+  constructor(private loginObs:LoginObsService, private loginBtnDisplayService:LoginBtnDisplayService){
+    this.loginBtnDisplayService.notifyObservable$.subscribe((res)=>{
+      this.loginBtnDisplay = res.refresh;
+    })
+  }
 
   onAuthHandler()
   {
-    this.loginObs.onLoggingInHandler({refresh:true})
+    this.loginObs.onLoggingInHandler({refresh:false})
   }
 }

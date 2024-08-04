@@ -1,58 +1,10 @@
 <div class="wrapper">
-  <div class="box">
-      <img src="./assets/oversizeds.jpg" alt="image">
-      <h3>Men's oversized T-shirt</h3>
-      <h5>Price:Rs.500</h5>
-      <p> <button class="button button1">Add to cart</button></p>
-      <p> <button class="button button2">Delete</button></p>
-  </div>
-  <div class="box">
-      <img src="./assets/denimskirt.jpg" alt="image">
-      <h3>Women Denim Skirt</h3>
-      <h5>Price:Rs.2000</h5>
-      <p> <button class="button button1">Add to cart</button></p>
-      <p> <button class="button button2">Delete</button></p>
-  </div>
-  <div class="box">
-      <img src="./assets/coord.jpg" alt="image">
-      <h3>Women Co-ord Set</h3>
-      <h5>Price:Rs.3000</h5>
-      <p> <button class="button button1">Add to cart</button></p>
-      <p> <button class="button button2">Delete</button></p>
-  </div>
-  <div class="box">
-      <img src="./assets/mencargo.jpg" alt="image">
-      <h3> Men's Cargo Pant</h3>
-      <h5>Price:Rs.1000</h5>
-      <p> <button class="button button1">Add to cart</button></p>
-      <p> <button class="button button2">Delete</button></p>
-  </div>
-  <div class="box">
-      <img src="./assets/jeans.jpg" alt="image">
-      <h3>Levis men's jeans</h3>
-      <h5>Price:Rs.2000</h5>
-      <p> <button class="button button1">Add to cart</button></p>
-      <p> <button class="button button2">Delete</button></p>
-  </div>
-  <div class="box">
-      <img src="./assets/converse.jpg" alt="image">
-      <h3>Converse Shoes</h3>
-      <h5>Price:Rs.4000</h5>
-      <p> <button class="button button1">Add to cart</button></p>
-      <p> <button class="button button2">Delete</button></p>
-  </div>
-  <div class="box">
-      <img src="./assets/bag.jpg" alt="image">
-      <h3>Black Classic Bag</h3>
-      <h5>Price:Rs.600</h5>
-      <p> <button class="button button1">Add to cart</button></p>
-      <p> <button class="button button2">Delete</button></p>
-  </div>
-  <div class="box">
-      <img src="./assets/shades.jpg" alt="image">
-      <h3>RayBan Black Shades</h3>
-      <h5>Price:Rs.2000</h5>
-      <p> <button class="button button1">Add to cart</button></p>
-      <p> <button class="button button2">Delete</button></p>
-  </div>
+
+    <div *ngFor="let product of wishlist" class="box">
+        <img src={{product.images[0]}} alt="image">
+        <h3>{{product.title}}</h3>
+        <h5>Price:Rs.{{product.price}}</h5>
+        <p> <button class="button button1" (click)="onAddCart(product)">Add to cart</button></p>
+        <p> <button class="button button2">Delete</button></p>
+    </div>
 </div>

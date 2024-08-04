@@ -9,6 +9,11 @@ body {
     min-height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.content-wrapper{
+    overflow-x: hidden;
+}
+
 .navbar{
 /* z-index: 100; */
 padding: 20px 20px 20px 60px;

@@ -9,17 +9,16 @@
         </div>
 
         <form id="LoginForm" class="form-content">
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit" class="btn" (click)="onLoginHandler()" >Login</button>
-            <a href="#">Forgot Password?</a>
+            <input type="text" placeholder="Username" name="username" [(ngModel)]="username" required>
+            <input type="password" placeholder="Password" name="password" [(ngModel)]="password" required>
+            <button type="submit" class="btn" (click)="onLoginHandler($event)">Login</button>
+            <!-- <a href="#">Forgot Password?</a> -->
         </form>
 
         <form id="RegForm" class="form-content">
-            <input type="text" placeholder="Username" required>
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit" class="btn" (click)="onRegisterHandler()">Register</button>
+            <input type="text" placeholder="Username" name="username" [(ngModel)]="username" required>
+            <input type="password" placeholder="Password" name="password" [(ngModel)]="password" required>
+            <button type="submit" class="btn" (click)="onRegisterHandler($event)">Register</button>
         </form>
     </div>
 </div>
