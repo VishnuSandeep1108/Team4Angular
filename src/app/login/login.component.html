@@ -9,14 +9,14 @@
                 <div id="Indicator"></div>
             </div>
 
-            <form action="./home.html" id="LoginForm" class="form-content">
-                <input type="text" placeholder="Username" required>
+            <form id="LoginForm" class="form-content">
+                <input type="text" placeholder="Username" required ngModel class="form-control" name="username" id="Username" required minlength="5">
                 <input type="password" placeholder="Password" required>
-                <button type="submit" class="btn">Login</button>
+                <button type="submit" class="btn" routerLink="/home">Login</button>
                 <a href="#">Forgot Password?</a>
             </form>
 
-            <form action="./home.html" id="RegForm" class="form-content">
+            <form id="RegForm" class="form-content">
                 <input type="text" placeholder="Username" required>
                 <input type="email" placeholder="Email" required>
                 <input type="password" placeholder="Password" required>
