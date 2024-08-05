@@ -2,26 +2,79 @@
   "users": [
     {
       "username": "John",
-      "password": "j"
-    },
-    {
-      "username": "Doe",
-      "password": "d"
-    },
-    {
-      "id": "ea0b",
-      "username": "Dev",
-      "password": "d"
-    },
-    {
-      "id": "e3c5",
-      "username": "fd",
-      "password": "f"
+      "password": "j",
+      "wishlist": [
+        {
+          "id": "84",
+          "title": "Gigabyte Aorus Men Tshirt",
+          "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
+          "category": "mens-shirts",
+          "price": 24.99,
+          "discountPercentage": 12.6,
+          "rating": 4.95,
+          "stock": 64,
+          "tags": [
+            "clothing",
+            "men's t-shirts"
+          ],
+          "brand": "Gigabyte",
+          "sku": "QA703Y60",
+          "weight": 2,
+          "dimensions": {
+            "width": 8.54,
+            "height": 23.52,
+            "depth": 5.66
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Highly recommended!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Logan Lawson",
+              "reviewerEmail": "logan.lawson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Logan Lawson",
+              "reviewerEmail": "logan.lawson@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Oscar Powers",
+              "reviewerEmail": "oscar.powers@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 4,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "3072645939073",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/thumbnail.png"
+        }
+      ],
+      "cart": [],
+      "id": "4e9e"
     }
   ],
   "mens": [
     {
-      "id": 83,
+      "id": "83",
       "title": "Blue & Black Check Shirt",
       "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
       "category": "mens-shirts",
@@ -84,7 +137,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/thumbnail.png"
     },
     {
-      "id": 84,
+      "id": "84",
       "title": "Gigabyte Aorus Men Tshirt",
       "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
       "category": "mens-shirts",
@@ -147,7 +200,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/thumbnail.png"
     },
     {
-      "id": 85,
+      "id": "85",
       "title": "Man Plaid Shirt",
       "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
       "category": "mens-shirts",
@@ -210,7 +263,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/thumbnail.png"
     },
     {
-      "id": 86,
+      "id": "86",
       "title": "Man Short Sleeve Shirt",
       "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
       "category": "mens-shirts",
@@ -273,7 +326,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Short%20Sleeve%20Shirt/thumbnail.png"
     },
     {
-      "id": 87,
+      "id": "87",
       "title": "Men Check Shirt",
       "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
       "category": "mens-shirts",
@@ -336,7 +389,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Men%20Check%20Shirt/thumbnail.png"
     },
     {
-      "id": 83,
+      "id": "83",
       "title": "Blue & Black Check Shirt",
       "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
       "category": "mens-shirts",
@@ -399,7 +452,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/thumbnail.png"
     },
     {
-      "id": 84,
+      "id": "84",
       "title": "Gigabyte Aorus Men Tshirt",
       "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
       "category": "mens-shirts",
@@ -462,7 +515,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/thumbnail.png"
     },
     {
-      "id": 85,
+      "id": "85",
       "title": "Man Plaid Shirt",
       "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
       "category": "mens-shirts",
@@ -525,7 +578,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/thumbnail.png"
     },
     {
-      "id": 86,
+      "id": "86",
       "title": "Man Short Sleeve Shirt",
       "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
       "category": "mens-shirts",
@@ -588,7 +641,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Short%20Sleeve%20Shirt/thumbnail.png"
     },
     {
-      "id": 87,
+      "id": "87",
       "title": "Men Check Shirt",
       "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
       "category": "mens-shirts",
@@ -653,7 +706,7 @@
   ],
   "womens": [
     {
-      "id": 177,
+      "id": "177",
       "title": "Black Women's Gown",
       "description": "The Black Women's Gown is an elegant and timeless evening gown. With a sleek black design, it's perfect for formal events and special occasions, exuding sophistication and style.",
       "category": "womens-dresses",
@@ -715,7 +768,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Black%20Women's%20Gown/thumbnail.png"
     },
     {
-      "id": 178,
+      "id": "178",
       "title": "Corset Leather With Skirt",
       "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
       "category": "womens-dresses",
@@ -778,7 +831,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/thumbnail.png"
     },
     {
-      "id": 179,
+      "id": "179",
       "title": "Corset With Black Skirt",
       "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
       "category": "womens-dresses",
@@ -841,7 +894,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/thumbnail.png"
     },
     {
-      "id": 180,
+      "id": "180",
       "title": "Dress Pea",
       "description": "The Dress Pea is a stylish and comfortable dress with a pea pattern. Perfect for casual outings, it adds a playful and fun element to your wardrobe, making it a great choice for day-to-day wear.",
       "category": "womens-dresses",
@@ -903,7 +956,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/thumbnail.png"
     },
     {
-      "id": 181,
+      "id": "181",
       "title": "Marni Red & Black Suit",
       "description": "The Marni Red & Black Suit is a sophisticated and fashion-forward suit ensemble. With a combination of red and black tones, it showcases a modern design for a bold and confident look.",
       "category": "womens-dresses",
@@ -965,7 +1018,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Marni%20Red%20&%20Black%20Suit/thumbnail.png"
     },
     {
-      "id": 177,
+      "id": "177",
       "title": "Black Women's Gown",
       "description": "The Black Women's Gown is an elegant and timeless evening gown. With a sleek black design, it's perfect for formal events and special occasions, exuding sophistication and style.",
       "category": "womens-dresses",
@@ -1027,7 +1080,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Black%20Women's%20Gown/thumbnail.png"
     },
     {
-      "id": 178,
+      "id": "178",
       "title": "Corset Leather With Skirt",
       "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
       "category": "womens-dresses",
@@ -1090,7 +1143,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/thumbnail.png"
     },
     {
-      "id": 179,
+      "id": "179",
       "title": "Corset With Black Skirt",
       "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
       "category": "womens-dresses",
@@ -1153,7 +1206,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/thumbnail.png"
     },
     {
-      "id": 180,
+      "id": "180",
       "title": "Dress Pea",
       "description": "The Dress Pea is a stylish and comfortable dress with a pea pattern. Perfect for casual outings, it adds a playful and fun element to your wardrobe, making it a great choice for day-to-day wear.",
       "category": "womens-dresses",
@@ -1215,7 +1268,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/thumbnail.png"
     },
     {
-      "id": 181,
+      "id": "181",
       "title": "Marni Red & Black Suit",
       "description": "The Marni Red & Black Suit is a sophisticated and fashion-forward suit ensemble. With a combination of red and black tones, it showcases a modern design for a bold and confident look.",
       "category": "womens-dresses",
@@ -1279,7 +1332,7 @@
   ],
   "mens-footwear": [
     {
-      "id": 88,
+      "id": "88",
       "title": "Nike Air Jordan 1 Red And Black",
       "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
       "category": "mens-shoes",
@@ -1342,7 +1395,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Red%20And%20Black/thumbnail.png"
     },
     {
-      "id": 89,
+      "id": "89",
       "title": "Nike Baseball Cleats",
       "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
       "category": "mens-shoes",
@@ -1405,7 +1458,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/thumbnail.png"
     },
     {
-      "id": 90,
+      "id": "90",
       "title": "Puma Future Rider Trainers",
       "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
       "category": "mens-shoes",
@@ -1468,7 +1521,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Puma%20Future%20Rider%20Trainers/thumbnail.png"
     },
     {
-      "id": 91,
+      "id": "91",
       "title": "Sports Sneakers Off White & Red",
       "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic touch.",
       "category": "mens-shoes",
@@ -1531,7 +1584,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Sports%20Sneakers%20Off%20White%20&%20Red/thumbnail.png"
     },
     {
-      "id": 92,
+      "id": "92",
       "title": "Sports Sneakers Off White Red",
       "description": "Another variant of the Sports Sneakers in Off White Red, featuring a unique design. These sneakers offer style and comfort for casual occasions.",
       "category": "mens-shoes",
@@ -1594,7 +1647,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Sports%20Sneakers%20Off%20White%20Red/thumbnail.png"
     },
     {
-      "id": 88,
+      "id": "88",
       "title": "Nike Air Jordan 1 Red And Black",
       "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
       "category": "mens-shoes",
@@ -1657,7 +1710,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Red%20And%20Black/thumbnail.png"
     },
     {
-      "id": 89,
+      "id": "89",
       "title": "Nike Baseball Cleats",
       "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
       "category": "mens-shoes",
@@ -1720,7 +1773,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/thumbnail.png"
     },
     {
-      "id": 90,
+      "id": "90",
       "title": "Puma Future Rider Trainers",
       "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
       "category": "mens-shoes",
@@ -1783,7 +1836,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Puma%20Future%20Rider%20Trainers/thumbnail.png"
     },
     {
-      "id": 91,
+      "id": "91",
       "title": "Sports Sneakers Off White & Red",
       "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic touch.",
       "category": "mens-shoes",
@@ -1846,7 +1899,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Sports%20Sneakers%20Off%20White%20&%20Red/thumbnail.png"
     },
     {
-      "id": 92,
+      "id": "92",
       "title": "Sports Sneakers Off White Red",
       "description": "Another variant of the Sports Sneakers in Off White Red, featuring a unique design. These sneakers offer style and comfort for casual occasions.",
       "category": "mens-shoes",
@@ -1911,7 +1964,7 @@
   ],
   "womens-footwear": [
     {
-      "id": 185,
+      "id": "185",
       "title": "Black & Brown Slipper",
       "description": "The Black & Brown Slipper is a comfortable and stylish choice for casual wear. Featuring a blend of black and brown colors, it adds a touch of sophistication to your relaxation.",
       "category": "womens-shoes",
@@ -1974,7 +2027,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-shoes/Black%20&%20Brown%20Slipper/thumbnail.png"
     },
     {
-      "id": 186,
+      "id": "186",
       "title": "Calvin Klein Heel Shoes",
       "description": "Calvin Klein Heel Shoes are elegant and sophisticated, designed for formal occasions. With a classic design and high-quality materials, they complement your stylish ensemble.",
       "category": "womens-shoes",
@@ -2037,7 +2090,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-shoes/Calvin%20Klein%20Heel%20Shoes/thumbnail.png"
     },
     {
-      "id": 187,
+      "id": "187",
       "title": "Golden Shoes Woman",
       "description": "The Golden Shoes for Women are a glamorous choice for special occasions. Featuring a golden hue and stylish design, they add a touch of luxury to your outfit.",
       "category": "womens-shoes",
@@ -2100,7 +2153,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-shoes/Golden%20Shoes%20Woman/thumbnail.png"
     },
     {
-      "id": 188,
+      "id": "188",
       "title": "Pampi Shoes",
       "description": "Pampi Shoes offer a blend of comfort and style for everyday use. With a versatile design, they are suitable for various casual occasions, providing a trendy and relaxed look.",
       "category": "womens-shoes",
@@ -2163,7 +2216,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-shoes/Pampi%20Shoes/thumbnail.png"
     },
     {
-      "id": 189,
+      "id": "189",
       "title": "Red Shoes",
       "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
       "category": "womens-shoes",
@@ -2226,7 +2279,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-shoes/Red%20Shoes/thumbnail.png"
     },
     {
-      "id": 185,
+      "id": "185",
       "title": "Black & Brown Slipper",
       "description": "The Black & Brown Slipper is a comfortable and stylish choice for casual wear. Featuring a blend of black and brown colors, it adds a touch of sophistication to your relaxation.",
       "category": "womens-shoes",
@@ -2289,7 +2342,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-shoes/Black%20&%20Brown%20Slipper/thumbnail.png"
     },
     {
-      "id": 186,
+      "id": "186",
       "title": "Calvin Klein Heel Shoes",
       "description": "Calvin Klein Heel Shoes are elegant and sophisticated, designed for formal occasions. With a classic design and high-quality materials, they complement your stylish ensemble.",
       "category": "womens-shoes",
@@ -2352,7 +2405,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-shoes/Calvin%20Klein%20Heel%20Shoes/thumbnail.png"
     },
     {
-      "id": 187,
+      "id": "187",
       "title": "Golden Shoes Woman",
       "description": "The Golden Shoes for Women are a glamorous choice for special occasions. Featuring a golden hue and stylish design, they add a touch of luxury to your outfit.",
       "category": "womens-shoes",
@@ -2415,7 +2468,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-shoes/Golden%20Shoes%20Woman/thumbnail.png"
     },
     {
-      "id": 188,
+      "id": "188",
       "title": "Pampi Shoes",
       "description": "Pampi Shoes offer a blend of comfort and style for everyday use. With a versatile design, they are suitable for various casual occasions, providing a trendy and relaxed look.",
       "category": "womens-shoes",
@@ -2478,7 +2531,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/womens-shoes/Pampi%20Shoes/thumbnail.png"
     },
     {
-      "id": 189,
+      "id": "189",
       "title": "Red Shoes",
       "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
       "category": "womens-shoes",
@@ -2543,7 +2596,7 @@
   ],
   "kids": [
     {
-      "id": 162,
+      "id": "162",
       "title": "Blue Frock",
       "description": "The Blue Frock is a charming and stylish dress for various occasions. With a vibrant blue color and a comfortable design, it adds a touch of elegance to your wardrobe.",
       "category": "tops",
@@ -2605,7 +2658,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/tops/Blue%20Frock/thumbnail.png"
     },
     {
-      "id": 163,
+      "id": "163",
       "title": "Girl Summer Dress",
       "description": "The Girl Summer Dress is a cute and breezy dress designed for warm weather. With playful patterns and lightweight fabric, it's perfect for keeping cool and stylish during the summer.",
       "category": "tops",
@@ -2667,7 +2720,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/tops/Girl%20Summer%20Dress/thumbnail.png"
     },
     {
-      "id": 164,
+      "id": "164",
       "title": "Gray Dress",
       "description": "The Gray Dress is a versatile and chic option for various occasions. With a neutral gray color, it can be dressed up or down, making it a wardrobe staple for any fashion-forward individual.",
       "category": "tops",
@@ -2729,7 +2782,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/tops/Gray%20Dress/thumbnail.png"
     },
     {
-      "id": 165,
+      "id": "165",
       "title": "Short Frock",
       "description": "The Short Frock is a playful and trendy dress with a shorter length. Ideal for casual outings or special occasions, it combines style and comfort for a fashionable look.",
       "category": "tops",
@@ -2791,7 +2844,7 @@
       "thumbnail": "https://cdn.dummyjson.com/products/images/tops/Short%20Frock/thumbnail.png"
     },
     {
-      "id": 166,
+      "id": "166",
       "title": "Tartan Dress",
       "description": "The Tartan Dress features a classic tartan pattern, bringing a timeless and sophisticated touch to your wardrobe. Perfect for fall and winter, it adds a hint of traditional charm.",
       "category": "tops",
@@ -2851,385 +2904,6 @@
         "https://cdn.dummyjson.com/products/images/tops/Tartan%20Dress/4.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/tops/Tartan%20Dress/thumbnail.png"
-    }
-  ],
-  "wishlist": [
-    {
-      "id": 162,
-      "title": "Blue Frock",
-      "description": "The Blue Frock is a charming and stylish dress for various occasions. With a vibrant blue color and a comfortable design, it adds a touch of elegance to your wardrobe.",
-      "category": "tops",
-      "price": 29.99,
-      "discountPercentage": 9.37,
-      "rating": 3.57,
-      "stock": 37,
-      "tags": [
-        "clothing",
-        "dresses"
-      ],
-      "sku": "YAXY0OOO",
-      "weight": 2,
-      "dimensions": {
-        "width": 22.85,
-        "height": 26.97,
-        "depth": 12.29
-      },
-      "warrantyInformation": "1 week warranty",
-      "shippingInformation": "Ships in 1 week",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 2,
-          "comment": "Very dissatisfied!",
-          "date": "2024-05-23T08:56:21.626Z",
-          "reviewerName": "Carter Rivera",
-          "reviewerEmail": "carter.rivera@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Very disappointed!",
-          "date": "2024-05-23T08:56:21.626Z",
-          "reviewerName": "Harper Garcia",
-          "reviewerEmail": "harper.garcia@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Poor quality!",
-          "date": "2024-05-23T08:56:21.626Z",
-          "reviewerName": "Violet Roberts",
-          "reviewerEmail": "violet.roberts@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 19,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.626Z",
-        "updatedAt": "2024-05-23T08:56:21.626Z",
-        "barcode": "3867112520929",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/tops/Blue%20Frock/1.png",
-        "https://cdn.dummyjson.com/products/images/tops/Blue%20Frock/2.png",
-        "https://cdn.dummyjson.com/products/images/tops/Blue%20Frock/3.png",
-        "https://cdn.dummyjson.com/products/images/tops/Blue%20Frock/4.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/tops/Blue%20Frock/thumbnail.png"
-    },
-    {
-      "id": 163,
-      "title": "Girl Summer Dress",
-      "description": "The Girl Summer Dress is a cute and breezy dress designed for warm weather. With playful patterns and lightweight fabric, it's perfect for keeping cool and stylish during the summer.",
-      "category": "tops",
-      "price": 19.99,
-      "discountPercentage": 6.42,
-      "rating": 2.67,
-      "stock": 20,
-      "tags": [
-        "clothing",
-        "girls' dresses"
-      ],
-      "sku": "99397X82",
-      "weight": 3,
-      "dimensions": {
-        "width": 8.02,
-        "height": 5.01,
-        "depth": 20.55
-      },
-      "warrantyInformation": "1 month warranty",
-      "shippingInformation": "Ships in 3-5 business days",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.626Z",
-          "reviewerName": "Gabriel Adams",
-          "reviewerEmail": "gabriel.adams@x.dummyjson.com"
-        },
-        {
-          "rating": 2,
-          "comment": "Poor quality!",
-          "date": "2024-05-23T08:56:21.626Z",
-          "reviewerName": "Addison Ward",
-          "reviewerEmail": "addison.ward@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Great value for money!",
-          "date": "2024-05-23T08:56:21.626Z",
-          "reviewerName": "Nora Mills",
-          "reviewerEmail": "nora.mills@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 5,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.626Z",
-        "updatedAt": "2024-05-23T08:56:21.626Z",
-        "barcode": "1171873054762",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/tops/Girl%20Summer%20Dress/1.png",
-        "https://cdn.dummyjson.com/products/images/tops/Girl%20Summer%20Dress/2.png",
-        "https://cdn.dummyjson.com/products/images/tops/Girl%20Summer%20Dress/3.png",
-        "https://cdn.dummyjson.com/products/images/tops/Girl%20Summer%20Dress/4.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/tops/Girl%20Summer%20Dress/thumbnail.png"
-    },
-    {
-      "id": 84,
-      "title": "Gigabyte Aorus Men Tshirt",
-      "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
-      "category": "mens-shirts",
-      "price": 24.99,
-      "discountPercentage": 12.6,
-      "rating": 4.95,
-      "stock": 64,
-      "tags": [
-        "clothing",
-        "men's t-shirts"
-      ],
-      "brand": "Gigabyte",
-      "sku": "QA703Y60",
-      "weight": 2,
-      "dimensions": {
-        "width": 8.54,
-        "height": 23.52,
-        "depth": 5.66
-      },
-      "warrantyInformation": "1 month warranty",
-      "shippingInformation": "Ships in 1 week",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Highly recommended!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Logan Lawson",
-          "reviewerEmail": "logan.lawson@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Great value for money!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Logan Lawson",
-          "reviewerEmail": "logan.lawson@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Great value for money!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Oscar Powers",
-          "reviewerEmail": "oscar.powers@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "30 days return policy",
-      "minimumOrderQuantity": 4,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.623Z",
-        "updatedAt": "2024-05-23T08:56:21.623Z",
-        "barcode": "3072645939073",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/1.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/2.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/3.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/4.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/thumbnail.png"
-    }
-  ],
-  "cart": [
-    {
-      "id": 84,
-      "title": "Gigabyte Aorus Men Tshirt",
-      "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
-      "category": "mens-shirts",
-      "price": 24.99,
-      "discountPercentage": 12.6,
-      "rating": 4.95,
-      "stock": 64,
-      "tags": [
-        "clothing",
-        "men's t-shirts"
-      ],
-      "brand": "Gigabyte",
-      "sku": "QA703Y60",
-      "weight": 2,
-      "dimensions": {
-        "width": 8.54,
-        "height": 23.52,
-        "depth": 5.66
-      },
-      "warrantyInformation": "1 month warranty",
-      "shippingInformation": "Ships in 1 week",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 4,
-          "comment": "Highly recommended!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Logan Lawson",
-          "reviewerEmail": "logan.lawson@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Great value for money!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Logan Lawson",
-          "reviewerEmail": "logan.lawson@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Great value for money!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Oscar Powers",
-          "reviewerEmail": "oscar.powers@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "30 days return policy",
-      "minimumOrderQuantity": 4,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.623Z",
-        "updatedAt": "2024-05-23T08:56:21.623Z",
-        "barcode": "3072645939073",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/1.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/2.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/3.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/4.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Gigabyte%20Aorus%20Men%20Tshirt/thumbnail.png"
-    },
-    {
-      "id": 85,
-      "title": "Man Plaid Shirt",
-      "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
-      "category": "mens-shirts",
-      "price": 34.99,
-      "discountPercentage": 17.53,
-      "rating": 3.66,
-      "stock": 65,
-      "tags": [
-        "clothing",
-        "men's shirts"
-      ],
-      "brand": "Classic Wear",
-      "sku": "TWL7HRBB",
-      "weight": 1,
-      "dimensions": {
-        "width": 29.56,
-        "height": 29.84,
-        "depth": 7.77
-      },
-      "warrantyInformation": "Lifetime warranty",
-      "shippingInformation": "Ships in 1 week",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 3,
-          "comment": "Would not buy again!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Nora Mills",
-          "reviewerEmail": "nora.mills@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Very disappointed!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Addison Ward",
-          "reviewerEmail": "addison.ward@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Awesome product!",
-          "date": "2024-05-23T08:56:21.623Z",
-          "reviewerName": "Emily Brown",
-          "reviewerEmail": "emily.brown@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "30 days return policy",
-      "minimumOrderQuantity": 1,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.623Z",
-        "updatedAt": "2024-05-23T08:56:21.623Z",
-        "barcode": "9383795178668",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/1.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/2.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/3.png",
-        "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/4.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/thumbnail.png"
-    },
-    {
-      "id": 162,
-      "title": "Blue Frock",
-      "description": "The Blue Frock is a charming and stylish dress for various occasions. With a vibrant blue color and a comfortable design, it adds a touch of elegance to your wardrobe.",
-      "category": "tops",
-      "price": 29.99,
-      "discountPercentage": 9.37,
-      "rating": 3.57,
-      "stock": 37,
-      "tags": [
-        "clothing",
-        "dresses"
-      ],
-      "sku": "YAXY0OOO",
-      "weight": 2,
-      "dimensions": {
-        "width": 22.85,
-        "height": 26.97,
-        "depth": 12.29
-      },
-      "warrantyInformation": "1 week warranty",
-      "shippingInformation": "Ships in 1 week",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 2,
-          "comment": "Very dissatisfied!",
-          "date": "2024-05-23T08:56:21.626Z",
-          "reviewerName": "Carter Rivera",
-          "reviewerEmail": "carter.rivera@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Very disappointed!",
-          "date": "2024-05-23T08:56:21.626Z",
-          "reviewerName": "Harper Garcia",
-          "reviewerEmail": "harper.garcia@x.dummyjson.com"
-        },
-        {
-          "rating": 1,
-          "comment": "Poor quality!",
-          "date": "2024-05-23T08:56:21.626Z",
-          "reviewerName": "Violet Roberts",
-          "reviewerEmail": "violet.roberts@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "7 days return policy",
-      "minimumOrderQuantity": 19,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.626Z",
-        "updatedAt": "2024-05-23T08:56:21.626Z",
-        "barcode": "3867112520929",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/tops/Blue%20Frock/1.png",
-        "https://cdn.dummyjson.com/products/images/tops/Blue%20Frock/2.png",
-        "https://cdn.dummyjson.com/products/images/tops/Blue%20Frock/3.png",
-        "https://cdn.dummyjson.com/products/images/tops/Blue%20Frock/4.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/tops/Blue%20Frock/thumbnail.png"
     }
   ]
 }

@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Router,ActivatedRoute } from '@angular/router';
+
+import { UserDetailsService } from '../services/user-details.service';
 
 @Component({
   selector: 'app-wishlist',
@@ -8,18 +11,37 @@ import { HttpClient } from '@angular/common/http';
 })
 export class WishlistComponent implements OnInit {
   wishlist:any = [];
-  constructor(private httpClient:HttpClient){}
+  constructor(private httpClient:HttpClient,private userDetails:UserDetailsService,private router:Router){}
    ngOnInit(): void {
-     this.httpClient.get('http://localhost:3000/wishlist').subscribe((response:any)=>{
-       this.wishlist = response;
-     })
+    
+     if(this.userDetails.username!='')
+      {
+        this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
+          this.wishlist = user[0].wishlist;
+        })
+      }
+
+      else
+      {
+        this.router.navigate(['auth']);
+      }
    }
 
-   
    onAddCart(event:any)
    {
-    this.httpClient.post('http://localhost:3000/cart',event).subscribe((response:any)=>{
-      alert("Added to Cart Successfully!")
-    })
+    if(this.userDetails.username!='')
+      {
+        this.httpClient.get('http://localhost:3000/users?username=',this.userDetails.username).subscribe((user:any)=>{
+          user[0].cart.push(event);
+          this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+            alert("Added to Cart Successfully!")
+          })
+        })
+      }
+
+      else
+      {
+        this.router.navigate(['auth']);
+      }
    }
 }

@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 
 import { LoginObsService } from '../services/login-obs.service';
 import { LoginBtnDisplayService } from '../services/login-btn-display.service';
-import { HttpClientModule } from '@angular/common/http';
+import { UserDetailsService } from '../services/user-details.service';
 
 @Component({
   selector: 'app-login',
@@ -14,7 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 export class LoginComponent {
   username:String = '';
   password:String = '';
-  constructor(private router:Router, private loginObs:LoginObsService, private loginBtnDisplay:LoginBtnDisplayService, private httpClient:HttpClient){}
+  constructor(private router:Router, private loginObs:LoginObsService, private loginBtnDisplay:LoginBtnDisplayService, private httpClient:HttpClient, private userDetails:UserDetailsService){}
 
   onLoginHandler(event:any)
   {
@@ -28,6 +28,7 @@ export class LoginComponent {
         {
           this.loginObs.onLoggingInHandler({refresh:true});
           this.loginBtnDisplay.onLoginSuccess({refresh:false});
+          this.userDetails.onLogin({username:this.username});
               
           this.router.navigate(['']);
         }

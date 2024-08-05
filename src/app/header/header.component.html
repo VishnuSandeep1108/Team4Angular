@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-xl">
   <div class="container-fluid">
-    <a class="navbar-brand" routerLink="/home">FAshioneeRS</a>
+    <a class="navbar-brand" routerLink="/">FAshioneeRS</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,16 +23,16 @@
           <button class="btn btn-outline-dark" type="submit">Search</button>
         </form> -->
         <li class="nav-item nav-icon">
-          <a class="nav-link" routerLink="/wishlist"><i class="fa-solid fa-heart"> Wishlist</i></a>
+          <a class="nav-link" (click)="loginCheck()" routerLink="/wishlist"><i class="fa-solid fa-heart fa-lg"> </i></a>
         </li>
         <li class="nav-item nav-icon">
-          <a class="nav-link" routerLink="/cartpage"><i class="fa-solid fa-cart-shopping"> Cart</i></a>
+          <a class="nav-link" (click)="loginCheck()" routerLink="/cartpage"><i class="fa-solid fa-cart-shopping fa-lg"> </i></a>
         </li>
         <li *ngIf="loginBtnDisplay" class="nav-item nav-icon">
-          <a class="nav-link" (click)="onAuthHandler()" routerLink="/auth"><i class="fa-solid fa-right-to-bracket">   Login</i></a>
+          <a class="nav-link" (click)="onAuthHandler()" routerLink="/auth"><i class="fa-solid fa-user fa-lg"> </i></a>
         </li>
         <li *ngIf="!loginBtnDisplay" class="nav-item nav-icon">
-          <a class="nav-link" (click)="onAuthHandler()" routerLink="/auth"><i class="fa-solid fa-left-to-bracket">   Logout</i></a>
+          <a class="nav-link" (click)="onAuthHandler()" routerLink="/auth"><i class="fa-solid fa-user"> </i></a>
         </li>
       </ul>
       

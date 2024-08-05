@@ -1,7 +1,10 @@
 import { Component, EventEmitter, Output } from '@angular/core';
+import { Router,ActivatedRoute } from '@angular/router';
+
 
 import { LoginObsService } from '../services/login-obs.service';
 import { LoginBtnDisplayService } from '../services/login-btn-display.service';
+import { UserDetailsService } from '../services/user-details.service';
 
 @Component({
   selector: 'app-header',
@@ -10,10 +13,22 @@ import { LoginBtnDisplayService } from '../services/login-btn-display.service';
 })
 export class HeaderComponent {
   loginBtnDisplay:boolean = true;
-  constructor(private loginObs:LoginObsService, private loginBtnDisplayService:LoginBtnDisplayService){
+  constructor(private loginObs:LoginObsService, private loginBtnDisplayService:LoginBtnDisplayService, private userDetails:UserDetailsService,private router:Router){
     this.loginBtnDisplayService.notifyObservable$.subscribe((res)=>{
       this.loginBtnDisplay = res.refresh;
     })
+  }
+
+  loginCheck()
+  {
+    
+    if(this.userDetails.username == '')
+    {
+      console.log("YES");
+      
+      this.loginObs.onLoggingInHandler({refresh:false});
+      this.router.navigate(['auth']);
+    }
   }
 
   onAuthHandler()

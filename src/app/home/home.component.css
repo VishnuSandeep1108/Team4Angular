@@ -85,10 +85,10 @@
     color: black;
 }
 
-.categories-grid-item:hover > img{
+/* .categories-grid-item:hover > img{
     transform: scaleX(1.12);
     transform: scaleY(1.12);
-}
+} */
 
 .product-display{
     width: 100vw;
