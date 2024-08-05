@@ -21,6 +21,7 @@ export class HeaderComponent {
 
   loginCheck()
   {
+    console.log("CHECKED");
     
     if(this.userDetails.username == '')
     {

@@ -41,10 +41,16 @@ export class MensComponent implements OnInit {
 
    onAddCart(event:any)
    {
+    console.log(this.userDetails.username);
+    
     if(this.userDetails.username!='')
       {
+        console.log("VALID");
+        
         this.httpClient.get('http://localhost:3000/users?username=',this.userDetails.username).subscribe((user:any)=>{
           user[0].cart.push(event);
+          console.log(user);
+          
           this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
             alert("Added to Cart Successfully!")
           })
@@ -53,6 +59,7 @@ export class MensComponent implements OnInit {
 
       else
       {
+        this.loginObs.onLoggingInHandler({refresh:false});
         this.router.navigate(['auth']);
       }
    }
