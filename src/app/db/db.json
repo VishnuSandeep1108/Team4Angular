@@ -322,130 +322,131 @@
       ],
       "cart": [
         {
-          "id": "85",
-          "title": "Man Plaid Shirt",
-          "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
-          "category": "mens-shirts",
-          "price": 34.99,
-          "discountPercentage": 17.53,
-          "rating": 3.66,
-          "stock": 65,
-          "tags": [
-            "clothing",
-            "men's shirts"
-          ],
-          "brand": "Classic Wear",
-          "sku": "TWL7HRBB",
-          "weight": 1,
-          "dimensions": {
-            "width": 29.56,
-            "height": 29.84,
-            "depth": 7.77
-          },
-          "warrantyInformation": "Lifetime warranty",
-          "shippingInformation": "Ships in 1 week",
-          "availabilityStatus": "In Stock",
-          "reviews": [
-            {
-              "rating": 3,
-              "comment": "Would not buy again!",
-              "date": "2024-05-23T08:56:21.623Z",
-              "reviewerName": "Nora Mills",
-              "reviewerEmail": "nora.mills@x.dummyjson.com"
-            },
-            {
-              "rating": 1,
-              "comment": "Very disappointed!",
-              "date": "2024-05-23T08:56:21.623Z",
-              "reviewerName": "Addison Ward",
-              "reviewerEmail": "addison.ward@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Awesome product!",
-              "date": "2024-05-23T08:56:21.623Z",
-              "reviewerName": "Emily Brown",
-              "reviewerEmail": "emily.brown@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "30 days return policy",
-          "minimumOrderQuantity": 1,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.623Z",
-            "updatedAt": "2024-05-23T08:56:21.623Z",
-            "barcode": "9383795178668",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/1.png",
-            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/2.png",
-            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/3.png",
-            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/4.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/thumbnail.png"
-        },
-        {
-          "id": "179",
-          "title": "Corset With Black Skirt",
-          "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
+          "id": "178",
+          "title": "Corset Leather With Skirt",
+          "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
           "category": "womens-dresses",
-          "price": 79.99,
-          "discountPercentage": 14.61,
-          "rating": 3,
-          "stock": 67,
+          "price": 89.99,
+          "discountPercentage": 19.26,
+          "rating": 2.52,
+          "stock": 59,
+          "itemCount": 1,
           "tags": [
             "clothing",
             "corsets",
             "skirts"
           ],
-          "sku": "KM6VKT38",
-          "weight": 6,
+          "sku": "TU384RG4",
+          "weight": 1,
           "dimensions": {
-            "width": 9.79,
-            "height": 26.72,
-            "depth": 14.21
+            "width": 19.1,
+            "height": 27.47,
+            "depth": 29.95
           },
-          "warrantyInformation": "Lifetime warranty",
-          "shippingInformation": "Ships in 2 weeks",
+          "warrantyInformation": "6 months warranty",
+          "shippingInformation": "Ships overnight",
           "availabilityStatus": "In Stock",
           "reviews": [
             {
-              "rating": 4,
-              "comment": "Very happy with my purchase!",
+              "rating": 3,
+              "comment": "Very unhappy with my purchase!",
               "date": "2024-05-23T08:56:21.627Z",
-              "reviewerName": "Nolan Bryant",
-              "reviewerEmail": "nolan.bryant@x.dummyjson.com"
+              "reviewerName": "Mason Parker",
+              "reviewerEmail": "mason.parker@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Would not recommend!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Grace Green",
+              "reviewerEmail": "grace.green@x.dummyjson.com"
             },
             {
               "rating": 4,
               "comment": "Highly impressed!",
               "date": "2024-05-23T08:56:21.627Z",
-              "reviewerName": "Julian Newton",
-              "reviewerEmail": "julian.newton@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Highly impressed!",
-              "date": "2024-05-23T08:56:21.627Z",
-              "reviewerName": "Elena Baker",
-              "reviewerEmail": "elena.baker@x.dummyjson.com"
+              "reviewerName": "Madison Stewart",
+              "reviewerEmail": "madison.stewart@x.dummyjson.com"
             }
           ],
-          "returnPolicy": "No return policy",
-          "minimumOrderQuantity": 3,
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 4,
           "meta": {
             "createdAt": "2024-05-23T08:56:21.627Z",
             "updatedAt": "2024-05-23T08:56:21.627Z",
-            "barcode": "1585516684321",
+            "barcode": "5612433310069",
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/1.png",
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/2.png",
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/3.png",
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/4.png"
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/1.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/2.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/3.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/4.png"
           ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/thumbnail.png"
+          "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/thumbnail.png"
+        },
+        {
+          "id": "180",
+          "title": "Dress Pea",
+          "description": "The Dress Pea is a stylish and comfortable dress with a pea pattern. Perfect for casual outings, it adds a playful and fun element to your wardrobe, making it a great choice for day-to-day wear.",
+          "category": "womens-dresses",
+          "price": 49.99,
+          "discountPercentage": 9.81,
+          "rating": 2.92,
+          "stock": 29,
+          "itemCount": 1,
+          "tags": [
+            "clothing",
+            "dresses"
+          ],
+          "sku": "EOSIQZU7",
+          "weight": 7,
+          "dimensions": {
+            "width": 22.66,
+            "height": 19.32,
+            "depth": 6.3
+          },
+          "warrantyInformation": "6 months warranty",
+          "shippingInformation": "Ships in 1 month",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Chloe Morales",
+              "reviewerEmail": "chloe.morales@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Would not buy again!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Not as described!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Nicholas Edwards",
+              "reviewerEmail": "nicholas.edwards@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.627Z",
+            "updatedAt": "2024-05-23T08:56:21.627Z",
+            "barcode": "8423169561887",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/1.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/2.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/3.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/thumbnail.png"
         }
       ],
       "id": "4e9e"
@@ -461,6 +462,7 @@
       "discountPercentage": 1.41,
       "rating": 4.19,
       "stock": 44,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "men's shirts"
@@ -524,6 +526,7 @@
       "discountPercentage": 12.6,
       "rating": 4.95,
       "stock": 64,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "men's t-shirts"
@@ -587,6 +590,7 @@
       "discountPercentage": 17.53,
       "rating": 3.66,
       "stock": 65,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "men's shirts"
@@ -650,6 +654,7 @@
       "discountPercentage": 8.65,
       "rating": 4.62,
       "stock": 20,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "men's shirts"
@@ -713,6 +718,7 @@
       "discountPercentage": 14.21,
       "rating": 2.9,
       "stock": 69,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "men's shirts"
@@ -776,6 +782,7 @@
       "discountPercentage": 1.41,
       "rating": 4.19,
       "stock": 44,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "men's shirts"
@@ -839,6 +846,7 @@
       "discountPercentage": 12.6,
       "rating": 4.95,
       "stock": 64,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "men's t-shirts"
@@ -902,6 +910,7 @@
       "discountPercentage": 17.53,
       "rating": 3.66,
       "stock": 65,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "men's shirts"
@@ -965,6 +974,7 @@
       "discountPercentage": 8.65,
       "rating": 4.62,
       "stock": 20,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "men's shirts"
@@ -1028,6 +1038,7 @@
       "discountPercentage": 14.21,
       "rating": 2.9,
       "stock": 69,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "men's shirts"
@@ -1093,6 +1104,7 @@
       "discountPercentage": 5.86,
       "rating": 4.77,
       "stock": 59,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "gowns"
@@ -1155,6 +1167,7 @@
       "discountPercentage": 19.26,
       "rating": 2.52,
       "stock": 59,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "corsets",
@@ -1218,6 +1231,7 @@
       "discountPercentage": 14.61,
       "rating": 3,
       "stock": 67,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "corsets",
@@ -1281,6 +1295,7 @@
       "discountPercentage": 9.81,
       "rating": 2.92,
       "stock": 29,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "dresses"
@@ -1343,6 +1358,7 @@
       "discountPercentage": 15.4,
       "rating": 4.17,
       "stock": 15,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "suits"
@@ -1405,6 +1421,7 @@
       "discountPercentage": 5.86,
       "rating": 4.77,
       "stock": 59,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "gowns"
@@ -1467,6 +1484,7 @@
       "discountPercentage": 19.26,
       "rating": 2.52,
       "stock": 59,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "corsets",
@@ -1530,6 +1548,7 @@
       "discountPercentage": 14.61,
       "rating": 3,
       "stock": 67,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "corsets",
@@ -1593,6 +1612,7 @@
       "discountPercentage": 9.81,
       "rating": 2.92,
       "stock": 29,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "dresses"
@@ -1655,6 +1675,7 @@
       "discountPercentage": 15.4,
       "rating": 4.17,
       "stock": 15,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "suits"
@@ -1719,6 +1740,7 @@
       "discountPercentage": 15.82,
       "rating": 2.77,
       "stock": 15,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "athletic shoes"
@@ -1782,6 +1804,7 @@
       "discountPercentage": 11.4,
       "rating": 4.01,
       "stock": 14,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "sports cleats"
@@ -1845,6 +1868,7 @@
       "discountPercentage": 3.64,
       "rating": 4.85,
       "stock": 10,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "casual shoes"
@@ -1908,6 +1932,7 @@
       "discountPercentage": 11.69,
       "rating": 4.92,
       "stock": 73,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "athletic shoes"
@@ -1971,6 +1996,7 @@
       "discountPercentage": 17.22,
       "rating": 2.95,
       "stock": 75,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "casual shoes"
@@ -2034,6 +2060,7 @@
       "discountPercentage": 15.82,
       "rating": 2.77,
       "stock": 15,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "athletic shoes"
@@ -2097,6 +2124,7 @@
       "discountPercentage": 11.4,
       "rating": 4.01,
       "stock": 14,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "sports cleats"
@@ -2160,6 +2188,7 @@
       "discountPercentage": 3.64,
       "rating": 4.85,
       "stock": 10,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "casual shoes"
@@ -2223,6 +2252,7 @@
       "discountPercentage": 11.69,
       "rating": 4.92,
       "stock": 73,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "athletic shoes"
@@ -2286,6 +2316,7 @@
       "discountPercentage": 17.22,
       "rating": 2.95,
       "stock": 75,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "casual shoes"
@@ -2351,6 +2382,7 @@
       "discountPercentage": 13.62,
       "rating": 4.13,
       "stock": 80,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "slippers"
@@ -2414,6 +2446,7 @@
       "discountPercentage": 11.39,
       "rating": 4.06,
       "stock": 99,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "heel shoes"
@@ -2477,6 +2510,7 @@
       "discountPercentage": 14.93,
       "rating": 4.82,
       "stock": 99,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "women's shoes"
@@ -2540,6 +2574,7 @@
       "discountPercentage": 0.3,
       "rating": 3.01,
       "stock": 36,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "casual shoes"
@@ -2603,6 +2638,7 @@
       "discountPercentage": 0.01,
       "rating": 4.23,
       "stock": 53,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "women's shoes"
@@ -2666,6 +2702,7 @@
       "discountPercentage": 13.62,
       "rating": 4.13,
       "stock": 80,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "slippers"
@@ -2729,6 +2766,7 @@
       "discountPercentage": 11.39,
       "rating": 4.06,
       "stock": 99,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "heel shoes"
@@ -2792,6 +2830,7 @@
       "discountPercentage": 14.93,
       "rating": 4.82,
       "stock": 99,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "women's shoes"
@@ -2855,6 +2894,7 @@
       "discountPercentage": 0.3,
       "rating": 3.01,
       "stock": 36,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "casual shoes"
@@ -2918,6 +2958,7 @@
       "discountPercentage": 0.01,
       "rating": 4.23,
       "stock": 53,
+      "itemCount": 1,
       "tags": [
         "footwear",
         "women's shoes"
@@ -2983,6 +3024,7 @@
       "discountPercentage": 9.37,
       "rating": 3.57,
       "stock": 37,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "dresses"
@@ -3045,6 +3087,7 @@
       "discountPercentage": 6.42,
       "rating": 2.67,
       "stock": 20,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "girls' dresses"
@@ -3107,6 +3150,7 @@
       "discountPercentage": 9.32,
       "rating": 3.49,
       "stock": 81,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "dresses"
@@ -3169,6 +3213,7 @@
       "discountPercentage": 9.47,
       "rating": 4.63,
       "stock": 19,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "dresses"
@@ -3231,6 +3276,7 @@
       "discountPercentage": 2.08,
       "rating": 2.82,
       "stock": 100,
+      "itemCount": 1,
       "tags": [
         "clothing",
         "dresses"

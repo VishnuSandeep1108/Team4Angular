@@ -44,4 +44,11 @@ export class CardPage1Component implements OnInit {
   //     alert("Product Deleted from Cart")
   //   })
   //  }
+
+  // onItemCountChange(event:any)
+  // {
+  //   this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
+
+  //   })
+  // }
 }
