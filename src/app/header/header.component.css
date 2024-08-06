@@ -3,13 +3,14 @@
     padding: 0;
 }
 
-body{
-    overflow-x: hidden;
-}
-
 .product-display-root{
     width: 100vw;
     /* background-color: rgb(234, 234, 234); */
+}
+
+nav{
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -18,6 +19,10 @@ body{
     background-color: rgb(234, 234, 234);
     animation: slideDown 1s linear;
 }
+/* 
+.navbar-collapse{
+    padding-right: 0px;
+} */
 
 .navbar-brand{
     font-family: "Cinzel Decorative", serif;
@@ -27,7 +32,7 @@ body{
 }
 
 .navbar-nav{
-    margin-left: 50%;
+    margin-left: 54%;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -43,7 +48,7 @@ body{
     font-style: normal;
     margin-right: 10px;
     border-bottom: 5px solid transparent;
-    transition: border-bottom 0.1s linear;
+    transition: border-bottom 0.5s ease-in;
     color: black;
 }
 

@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-body {
+.product-display {
   overflow-x: hidden;
 }
 
@@ -52,7 +52,7 @@ body {
   gap: 40px;
   width: 90vw;
   padding: 0 50px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }
 
 .product-display-container > .card > img {
