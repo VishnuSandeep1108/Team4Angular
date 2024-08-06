@@ -1,0 +1,30 @@
+h3{
+    font-family: "Cinzel Decorative";
+    font-size: 30px;
+   text-align: center;
+   margin-top: 90px;
+   margin-bottom: 50px;
+   font-weight: bold;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin: 10px 10px;
+    height: 100px;
+    width: 250px;
+    border: solid black;
+   
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}

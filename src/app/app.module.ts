@@ -17,6 +17,10 @@ import { HomeComponent } from './home/home.component';
 import { FootwearComponent } from './footwear/footwear.component';
 import { FirstPageComponent } from './first-page/first-page.component';
 import { TemplateModule } from './template/template.module';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { CardComponent } from './card/card.component';
+import { UpiComponent } from './upi/upi.component';
+import { ContinueShopComponent } from './continue-shop/continue-shop.component';
 
 
 const appRoutes: Routes=[
@@ -28,7 +32,10 @@ const appRoutes: Routes=[
   {path:'kids',component:KidsComponent},
   {path:'footwear',component:FootwearComponent},
   {path:'cart',component:CardPage1Component},
-  {path:'wishlist',component:WishlistComponent}
+  {path:'wishlist',component:WishlistComponent},
+  {path:'checkout',component:CheckoutComponent},
+  {path:'card',component:CardComponent},
+  {path:'continue',component:ContinueShopComponent}
 ]
 
 const appRoute:Routes = [
@@ -40,6 +47,10 @@ const appRoute:Routes = [
   {path:'footwear',component:FootwearComponent},
   {path:'wishlist',component:WishlistComponent},
   {path:'cartpage',component:CardPage1Component},
+  {path:'checkout',component:CheckoutComponent},
+  {path:'card',component:CardComponent},
+  {path:'upi',component:UpiComponent},
+  {path:'continue',component:ContinueShopComponent}
 ]
 
 @NgModule({
@@ -54,7 +65,11 @@ const appRoute:Routes = [
     CardPage1Component,
     HomeComponent,
     FootwearComponent,
-    FirstPageComponent
+    FirstPageComponent,
+    CheckoutComponent,
+    CardComponent,
+    UpiComponent,
+    ContinueShopComponent
   ],
   imports: [
     BrowserModule,

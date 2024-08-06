@@ -1,0 +1,89 @@
+<section id="payment-header" class="dark">
+    <h1>Paying ₹199</h1>
+  </section>
+  <div class="upi" >
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+          <div class="payment-box card p-3">
+            <form #paymentForm="ngForm" (ngSubmit)="onSubmit(paymentForm)" novalidate>
+              <div class="row justify-content-center mb-4 radio-group">
+                <div class="col-sm-3 col-5">
+                  <div class="radio mx-auto" data-value="gpay">
+                    <img
+                      class="fit-image companies"
+                      src="./assets/checkout-img/GPay.png"
+                      width="105px"
+                      height="55px"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-3 col-5">
+                  <div class="radio mx-auto" data-value="paytm">
+                    <img
+                      class="fit-image companies"
+                      src="./assets/checkout-img/Paytm.png"
+                      width="105px"
+                      height="55px"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-3 col-5">
+                  <div class="radio mx-auto" data-value="phonepe">
+                    <img
+                      class="fit-image companies"
+                      src="./assets/checkout-img/PhonePe.png"
+                      width="105px"
+                      height="55px"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-3 col-5">
+                  <div class="radio mx-auto" data-value="amazonpay">
+                    <img
+                      class="fit-image companies"
+                      src="./assets/checkout-img/AmazonPay.png"
+                      width="105px"
+                      height="55px"
+                    />
+                  </div>
+                </div>
+                <br />
+              </div>
+              <div class="row justify-content-center form-group"></div>
+              <div class="row justify-content-center">
+                <div class="col-lg-12">
+                  <div class="input-group">
+                    <input
+                    ngModel #id="ngModel"
+                    class="form-control"
+                      type="text"
+                      name="Name"
+                      placeholder="johnsmith@bank"
+                      pattern="[a-z]{2,12}@[a-z]{2,7}"
+                      required
+                    />
+                    <label>UPI ID</label>
+                  </div>
+                </div>
+                <div *ngIf="id.invalid && id.touched" class="text-danger">
+                    <span *ngIf="id.errors?.['pattern']">UPI ID is invalid!</span>
+                    <span *ngIf="id.errors?.['required']">UPI ID is required!</span>
+                </div>
+              </div>
+    <br>
+              <div class="row justify-content-center">
+                <div class="col-md-12">
+                  <div class="pay">
+                    <button [disabled]="paymentForm.invalid" class="btn btn-lg btn-block pay-button" type="submit" routerLink="/continue">
+                        <strong>Pay</strong>
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
