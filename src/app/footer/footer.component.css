@@ -4,6 +4,10 @@ footer{
     padding: 50px;
     background-color: gray;
 }
+footer a{
+    text-decoration: none;
+    color: black;
+}
 
 footer h6{
     color: black;

@@ -9,10 +9,20 @@
                 <div id="Indicator"></div>
             </div>
 
-            <form action="./home.html" id="LoginForm" class="form-content">
-                <input type="text" placeholder="Username" required>
-                <input type="password" placeholder="Password" required>
-                <button type="submit" class="btn">Login</button>
+            <form #form1="ngForm" action="./home.html" id="LoginForm" class="form-content">
+                <input ngModel #userName="ngModel" name="userName" type="text" placeholder="Username" minlength="5" required>
+                <div *ngIf="userName.touched && userName.invalid" class="alert alert-danger">
+                    <span *ngIf="userName.errors?.['required']">Username is a required Field</span>
+
+                    <span *ngIf="userName.errors?.['minlength']">Username should be atleast 5 characters long</span>
+                </div>
+                <input ngModel #pwd="ngModel" name="password" type="password" placeholder="Password" minlength="5" required>
+                <div *ngIf="pwd.touched && pwd.invalid" class="alert alert-danger">
+                    <span *ngIf="pwd.errors?.['required']">Password is a required Field</span>
+
+                    <span *ngIf="pwd.errors?.['minlength']">Password should be atleast 5 characters long</span>
+                </div>
+                <button type="submit" class="btn" (click)=onClickHandler() [disabled]="form1.invalid">Login</button>
                 <a href="#">Forgot Password?</a>
             </form>
 
@@ -20,7 +30,8 @@
                 <input type="text" placeholder="Username" required>
                 <input type="email" placeholder="Email" required>
                 <input type="password" placeholder="Password" required>
-                <button type="submit" class="btn">Register</button>
+                 <button type="submit" class="btn"  (click)="onClickHandler()">Register</button>
+                
             </form>
         </div>
     </div>
