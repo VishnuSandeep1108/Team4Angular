@@ -318,137 +318,137 @@
             "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/4.png"
           ],
           "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/thumbnail.png"
-        }
-      ],
-      "cart": [
+        },
         {
-          "id": "178",
-          "title": "Corset Leather With Skirt",
-          "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
-          "category": "womens-dresses",
-          "price": 89.99,
-          "discountPercentage": 19.26,
-          "rating": 2.52,
-          "stock": 59,
+          "id": "89",
+          "title": "Nike Baseball Cleats",
+          "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+          "category": "mens-shoes",
+          "price": 79.99,
+          "discountPercentage": 11.4,
+          "rating": 4.01,
+          "stock": 14,
           "itemCount": 1,
           "tags": [
-            "clothing",
-            "corsets",
-            "skirts"
+            "footwear",
+            "sports cleats"
           ],
-          "sku": "TU384RG4",
-          "weight": 1,
+          "brand": "Nike",
+          "sku": "81LRTRP5",
+          "weight": 7,
           "dimensions": {
-            "width": 19.1,
-            "height": 27.47,
-            "depth": 29.95
+            "width": 14.83,
+            "height": 19.16,
+            "depth": 28.98
           },
-          "warrantyInformation": "6 months warranty",
+          "warrantyInformation": "No warranty",
           "shippingInformation": "Ships overnight",
           "availabilityStatus": "In Stock",
           "reviews": [
             {
-              "rating": 3,
-              "comment": "Very unhappy with my purchase!",
-              "date": "2024-05-23T08:56:21.627Z",
-              "reviewerName": "Mason Parker",
-              "reviewerEmail": "mason.parker@x.dummyjson.com"
-            },
-            {
-              "rating": 3,
-              "comment": "Would not recommend!",
-              "date": "2024-05-23T08:56:21.627Z",
-              "reviewerName": "Grace Green",
-              "reviewerEmail": "grace.green@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Highly impressed!",
-              "date": "2024-05-23T08:56:21.627Z",
-              "reviewerName": "Madison Stewart",
-              "reviewerEmail": "madison.stewart@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "60 days return policy",
-          "minimumOrderQuantity": 4,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.627Z",
-            "updatedAt": "2024-05-23T08:56:21.627Z",
-            "barcode": "5612433310069",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/1.png",
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/2.png",
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/3.png",
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/4.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/thumbnail.png"
-        },
-        {
-          "id": "180",
-          "title": "Dress Pea",
-          "description": "The Dress Pea is a stylish and comfortable dress with a pea pattern. Perfect for casual outings, it adds a playful and fun element to your wardrobe, making it a great choice for day-to-day wear.",
-          "category": "womens-dresses",
-          "price": 49.99,
-          "discountPercentage": 9.81,
-          "rating": 2.92,
-          "stock": 29,
-          "itemCount": 1,
-          "tags": [
-            "clothing",
-            "dresses"
-          ],
-          "sku": "EOSIQZU7",
-          "weight": 7,
-          "dimensions": {
-            "width": 22.66,
-            "height": 19.32,
-            "depth": 6.3
-          },
-          "warrantyInformation": "6 months warranty",
-          "shippingInformation": "Ships in 1 month",
-          "availabilityStatus": "In Stock",
-          "reviews": [
-            {
               "rating": 5,
-              "comment": "Fast shipping!",
-              "date": "2024-05-23T08:56:21.627Z",
-              "reviewerName": "Chloe Morales",
-              "reviewerEmail": "chloe.morales@x.dummyjson.com"
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "William Gonzalez",
+              "reviewerEmail": "william.gonzalez@x.dummyjson.com"
             },
             {
               "rating": 2,
-              "comment": "Would not buy again!",
-              "date": "2024-05-23T08:56:21.627Z",
-              "reviewerName": "Levi Hicks",
-              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+              "comment": "Not worth the price!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Sophia Brown",
+              "reviewerEmail": "sophia.brown@x.dummyjson.com"
             },
             {
-              "rating": 3,
-              "comment": "Not as described!",
-              "date": "2024-05-23T08:56:21.627Z",
-              "reviewerName": "Nicholas Edwards",
-              "reviewerEmail": "nicholas.edwards@x.dummyjson.com"
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Gabriel Mitchell",
+              "reviewerEmail": "gabriel.mitchell@x.dummyjson.com"
             }
           ],
-          "returnPolicy": "90 days return policy",
-          "minimumOrderQuantity": 1,
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 3,
           "meta": {
-            "createdAt": "2024-05-23T08:56:21.627Z",
-            "updatedAt": "2024-05-23T08:56:21.627Z",
-            "barcode": "8423169561887",
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "0517654748946",
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/1.png",
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/2.png",
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/3.png",
-            "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/4.png"
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/4.png"
           ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Dress%20Pea/thumbnail.png"
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/thumbnail.png"
+        },
+        {
+          "id": "85",
+          "title": "Man Plaid Shirt",
+          "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+          "category": "mens-shirts",
+          "price": 34.99,
+          "discountPercentage": 17.53,
+          "rating": 3.66,
+          "stock": 65,
+          "itemCount": 1,
+          "tags": [
+            "clothing",
+            "men's shirts"
+          ],
+          "brand": "Classic Wear",
+          "sku": "TWL7HRBB",
+          "weight": 1,
+          "dimensions": {
+            "width": 29.56,
+            "height": 29.84,
+            "depth": 7.77
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Would not buy again!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Nora Mills",
+              "reviewerEmail": "nora.mills@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Very disappointed!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Addison Ward",
+              "reviewerEmail": "addison.ward@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Awesome product!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Emily Brown",
+              "reviewerEmail": "emily.brown@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "9383795178668",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Plaid%20Shirt/thumbnail.png"
         }
       ],
+      "cart": [],
       "id": "4e9e"
     }
   ],

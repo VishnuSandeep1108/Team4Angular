@@ -140,6 +140,11 @@ border-bottom-color: black;
     display: flex;
     flex-direction: column;
 }
+
+.quantityBtn:hover{
+    cursor: pointer;
+}
+
 .right-bar p {
     display: flex;
     justify-content: space-between;
