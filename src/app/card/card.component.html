@@ -1,0 +1,129 @@
+
+<section id="payment-header" class="dark">
+    <h1>Paying ₹199</h1>
+  </section>
+  <div class="card">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+          <div class="payment-box card p-3">
+            <form #paymentForm="ngForm" (ngSubmit)="onSubmit(paymentForm)" novalidate>
+              <div class="row justify-content-center mb-4 radio-group">
+                <!-- Radio buttons for card types -->
+                <!-- Add your radio buttons here -->
+                <div class="col-sm-3 col-5">
+                    <div class="radio mx-auto" data-value="amex">
+                      <img
+                        class="fit-image companies"
+                        src="./assets/checkout-img/AmericanExpress.png"
+                        width="105px"
+                        height="55px"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-5">
+                    <div class="radio mx-auto" data-value="visa">
+                      <img
+                        class="fit-image companies"
+                        src="./assets/checkout-img/VISA.png"
+                        width="105px"
+                        height="55px"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-5">
+                    <div class="radio mx-auto" data-value="master">
+                      <img
+                        class="fit-image companies"
+                        src="./assets/checkout-img/MasterCard.png"
+                        width="105px"
+                        height="55px"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-5">
+                    <div class="radio mx-auto" data-value="rupay">
+                      <img
+                        class="fit-image companies"
+                        src="./assets/checkout-img/RuPay.png"
+                        width="105px"
+                        height="55px"
+                      />
+                    </div>
+                  </div>
+                  <br>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-12">
+                  <div class="input-group">
+                    <input type="text" name="name" class="form-control" placeholder="John Smith" #name="ngModel" ngModel minlength="5" required />
+                    <label>Name</label>
+                </div>
+                    <div *ngIf="name.invalid && name.touched" class="text-danger">
+                        <span *ngIf="name.errors?.['minlength']">Name is invalid!</span>
+                        <span *ngIf="name.errors?.['required']">Name is required!</span>
+                    </div>
+                </div>
+              </div>
+              <br>
+              <div class="row justify-content-center">
+                <div class="col-12">
+                  <div class="input-group">
+                    <input type="text" name="cardNo" class="form-control" placeholder="0000 0000 0000 0000"  ngModel #cardNo="ngModel" pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" required />
+                    <label>Card Number</label>
+                </div>
+                <div *ngIf="cardNo.invalid && cardNo.touched" class="text-danger">
+                    <span *ngIf="cardNo.errors?.['pattern']">Card Number is invalid!</span>
+                    <span *ngIf="cardNo.errors?.['required']">Card Number is required!</span>
+                </div>
+                </div>
+              </div>
+             <br>
+              <div class="row justify-content-center">
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="input-group">
+                        <input type="text" name="expDate" class="form-control" placeholder="MM/YY" #expDate="ngModel" ngModel pattern="[0-1]{1}[1-9]{1}/[0-9]{2}" required />
+                        <label>Expiry Date</label>
+                    </div>
+                    <div *ngIf="expDate.invalid && expDate.touched" class="text-danger">
+                        <span *ngIf="expDate.errors?.['pattern']">Expiry Date is invalid!</span>
+                        <span *ngIf="expDate.errors?.['required']">Expiry Date is required!</span>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="col-6">
+                      <div class="input-group">
+                        <input type="password" name="cvv" class="form-control" #cvv="ngModel" placeholder="&#9679;&#9679;&#9679;" ngModel minlength="3" pattern="[0-9]{3}" maxlength="3" required />
+                        <label>CVV</label>
+                    </div>
+                        <div *ngIf="cvv.invalid && cvv.touched" class="text-danger">
+                            <span *ngIf="cvv.errors?.['minlength']">CVV is invalid!</span>
+                            <span *ngIf="cvv.errors?.['required']">CVV is required!</span>
+                        </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="row justify-content-center">
+                <div class="col-md-12">
+                  <div class="pay">
+                    <button [disabled]="paymentForm.invalid" class="btn btn-lg btn-block pay-button" type="submit" routerLink="/continue">
+                        <strong>Pay</strong>
+                      </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+

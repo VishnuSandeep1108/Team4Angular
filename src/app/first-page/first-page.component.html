@@ -1,4 +1,8 @@
-
+<!-- <nav class="navbar navbar-expand-xxl"> -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">FAshioneeRS</a>
+      <a [routerLink]="['login']" class="login">Login/Sign Up</a>
+     
 <div class="home-container">
     
     <!-- Offers Carousel -->
@@ -10,9 +14,6 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item offers-carousel-item active">
-              <img src="../../assets/giphy.gif" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item offers-carousel-item">
               <img src="../../assets/home-images/sale5.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item offers-carousel-item">
@@ -32,10 +33,10 @@
             </button>
       </div>
 
-      <!-- Badge
+      <!-- Badge -->
       <div class="display-badge">
         <div class="circular-badge"><h1>F</h1></div>
-       </div> -->
+       </div>
 
       <!-- Categories -->
         <div class="categories">
@@ -45,27 +46,27 @@
             <div class="card categories-grid-item">
               <img src="../../assets/home-images/wc1.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a routerLink="/womens">Women's Clothing</a></h5>
+                <h5 class="card-title"><a routerLink="women">Women's Clothing</a></h5>
               </div>
             </div>
 
             <div class="card categories-grid-item">
               <img src="../../assets/home-images/mc1.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a routerLink="/mens">Men's Clothing</a></h5>
+                <h5 class="card-title"><a routerLink="mens">Men's Clothing</a></h5>
               </div>
             </div>
 
             <div class="card categories-grid-item">
               <img src="../../assets/home-images/kc1.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a routerLink="/kids">Kids' Fashion</a></h5>
+                <h5 class="card-title"><a routerLink="kids">Kids' Fashion</a></h5>
               </div>
             </div>
             <div class="card categories-grid-item">
               <img src="../../assets/home-images/fc1.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a routerLink="/footwear">Footwear</a></h5>
+                <h5 class="card-title"><a routerLink="footwear">Footwear</a></h5>
               </div>
             </div>
 
@@ -78,33 +79,33 @@
           <div class="women-display">
             <h2 class="women-display-heading">Women's Clothing</h2>
             <div class="women-display-container">
-              <a routerLink="/womens"><img src="../../assets/home-images/wd1.png" alt=""></a>
-              <a routerLink="/womens"><img src="../../assets/home-images/wd2.png" alt=""></a>
-              <a routerLink="/womens"><img src="../../assets/home-images/wd3.png" alt=""></a>
-              <a routerLink="/womens"><img src="../../assets/home-images/wd4.png" alt=""></a>
-              <a routerLink="/womens"><img src="../../assets/home-images/wd5.png" alt=""></a>
+              <a href="./womens.html"><img src="../../assets/home-images/wd1.png" alt=""></a>
+              <a href="./womens.html"><img src="../../assets/home-images/wd2.png" alt=""></a>
+              <a href="./womens.html"><img src="../../assets/home-images/wd3.png" alt=""></a>
+              <a href="./womens.html"><img src="../../assets/home-images/wd4.png" alt=""></a>
+              <a href="./womens.html"><img src="../../assets/home-images/wd5.png" alt=""></a>
             </div>
           </div>
 
           <div class="men-display">
             <h2 class="men-display-heading">Men's Clothing</h2>
             <div class="men-display-container">
-              <a routerLink="/mens"><img src="../../assets/home-images/md1.png" alt=""></a>
-              <a routerLink="/mens"><img src="../../assets/home-images/md2.png" alt=""></a>
-              <a routerLink="/mens"><img src="../../assets/home-images/md3.png" alt=""></a>
-              <a routerLink="/mens"><img src="../../assets/home-images/md4.png" alt=""></a>
-              <a routerLink="/mens"><img src="../../assets/home-images/md5.png" alt=""></a>
+              <a [routerLink]="['mens']"><img src="../../assets/home-images/md1.png" alt=""></a>
+              <a [routerLink]="['mens']"><img src="../../assets/home-images/md2.png" alt=""></a>
+              <a [routerLink]="['mens']"><img src="../../assets/home-images/md3.png" alt=""></a>
+              <a [routerLink]="['mens']"><img src="../../assets/home-images/md4.png" alt=""></a>
+              <a [routerLink]="['mens']"><img src="../../assets/home-images/md5.png" alt=""></a>
             </div>
           </div>
 
           <div class="kids-display">
             <h2 class="kids-display-heading">kids' Fashion</h2>
             <div class="kids-display-container">
-              <a routerLink="/kids"><img src="../../assets/home-images/kd1.png" alt=""></a>
-              <a routerLink="/kids"><img src="../../assets/home-images/kd2.png" alt=""></a>
-              <a routerLink="/kids"><img src="../../assets/home-images/kd3.png" alt=""></a>
-              <a routerLink="/kids"><img src="../../assets/home-images/kd4.png" alt=""></a>
-              <a routerLink="/kids"><img src="../../assets/home-images/kd5.png" alt=""></a>
+              <a href="./kids.html"><img src="../../assets/home-images/kd1.png" alt=""></a>
+              <a href="./kids.html"><img src="../../assets/home-images/kd2.png" alt=""></a>
+              <a href="./kids.html"><img src="../../assets/home-images/kd3.png" alt=""></a>
+              <a href="./kids.html"><img src="../../assets/home-images/kd4.png" alt=""></a>
+              <a href="./kids.html"><img src="../../assets/home-images/kd5.png" alt=""></a>
             </div>
           </div>
         </div>
@@ -151,23 +152,24 @@
             <div class="women-display">
               <h2 class="women-display-heading">Women's Footwear</h2>
               <div class="women-display-container">
-                <a routerLink="/footwear"><img src="../../assets/home-images/wsd1.png" alt=""></a>
-                <a routerLink="/footwear"><img src="../../assets/home-images/wsd2.png" alt=""></a>
-                <a routerLink="/footwear"><img src="../../assets/home-images/wsd3.png" alt=""></a>
-                <a routerLink="/footwear"><img src="../../assets/home-images/wsd4.png" alt=""></a>
-                <a routerLink="/footwear"><img src="../../assets/home-images/wsd5.png" alt=""></a>
+                <a href="./footwear.html"><img src="../../assets/home-images/wsd1.png" alt=""></a>
+                <a href="./footwear.html"><img src="../../assets/home-images/wsd2.png" alt=""></a>
+                <a href="./footwear.html"><img src="../../assets/home-images/wsd3.png" alt=""></a>
+                <a href="./footwear.html"><img src="../../assets/home-images/wsd4.png" alt=""></a>
+                <a href="./footwear.html"><img src="../../assets/home-images/wsd5.png" alt=""></a>
               </div>
             </div>
 
             <div class="men-display">
               <h2 class="men-display-heading">Men's Footwear</h2>
               <div class="men-display-container">
-                <a routerLink="/footwear"><img src="../../assets/home-images/msd1.png" alt=""></a>
-                <a routerLink="/footwear"><img src="../../assets/home-images/msd2.png" alt=""></a>
-                <a routerLink="/footwear"><img src="../../assets/home-images/msd3.png" alt=""></a>
-                <a routerLink="/footwear"><img src="../../assets/home-images/msd4.png" alt=""></a>
-                <a routerLink="/footwear"><img src="../../assets/home-images/msd5.png" alt=""></a>
+                <a href="./footwear.html"><img src="../../assets/home-images/msd1.png" alt=""></a>
+                <a href="./footwear.html"><img src="../../assets/home-images/msd2.png" alt=""></a>
+                <a href="./footwear.html"><img src="../../assets/home-images/msd3.png" alt=""></a>
+                <a href="./footwear.html"><img src="../../assets/home-images/msd4.png" alt=""></a>
+                <a href="./footwear.html"><img src="../../assets/home-images/msd5.png" alt=""></a>
               </div>
             </div>
           </div>
 </div>
+<app-footer></app-footer>

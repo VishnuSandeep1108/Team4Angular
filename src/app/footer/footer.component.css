@@ -5,6 +5,10 @@ footer{
     background-color: gray;
     overflow-x: hidden;
 }
+footer a{
+    text-decoration: none;
+    color: black;
+}
 
 footer h6{
     color: black;
