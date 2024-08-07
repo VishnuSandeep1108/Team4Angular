@@ -15,7 +15,7 @@ export class MensComponent implements OnInit {
   mens:any = [];
   constructor(private httpClient:HttpClient, private userDetails:UserDetailsService,private router:Router, private loginObs:LoginObsService){}
    ngOnInit(): void {
-     this.httpClient.get('http://localhost:3000/mens').subscribe((response:any)=>{
+     this.httpClient.get(`http://localhost:3000/mens`).subscribe((response:any)=>{
        this.mens = response;
      })
    }
@@ -25,7 +25,7 @@ export class MensComponent implements OnInit {
       let flag:boolean = false;
       if(this.userDetails.username!='')
       {
-        this.httpClient.get('http://localhost:3000/users?username=',this.userDetails.username).subscribe((user:any)=>{
+        this.httpClient.get(`http://localhost:3000/users?username=${this.userDetails.username}`).subscribe((user:any)=>{
           user[0].wishlist.forEach((item:any)=>{
             if(item.id === event.id)
             {
@@ -65,7 +65,7 @@ export class MensComponent implements OnInit {
       {
         console.log("VALID");
         
-        this.httpClient.get('http://localhost:3000/users?username=',this.userDetails.username).subscribe((user:any)=>{
+        this.httpClient.get(`http://localhost:3000/users?username=${this.userDetails.username}`).subscribe((user:any)=>{
           user[0].cart.forEach((item:any)=>{
             if(item.id === event.id)
             {

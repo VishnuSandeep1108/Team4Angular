@@ -13,9 +13,9 @@
                             <!-- <button class="quantityBtn">-</button><p> {{product.itemCount}} </p><button class="quantityBtn">+</button> -->
                             <h3><span class="quantityBtn" (click)="onCartQuantDecrease(product.id)">-</span><span> {{product.itemCount}} </span><span class="quantityBtn" (click)="onCartQuantIncrease(product.id)">+</span></h3>
                         </div>
-                        <p class="btn-area">
+                        <p class="btn-area" (click)="onCartDelete(product.id)">
                             <i class="fa fa-trash"></i>
-                            <span class="btn2" (click)="onCartDelete(product.id)">Remove</span>
+                            <span class="btn2">Remove</span>
                         </p>
                     </div>
                     

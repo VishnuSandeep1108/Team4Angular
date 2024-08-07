@@ -21,9 +21,7 @@ export class CardPage1Component implements OnInit {
    ngOnInit(): void {
     if(this.userDetails.username!='')
       {
-        // console.log("USERNAME: ",this.userDetails.username);
-
-        this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
+        this.httpClient.get(`http://localhost:3000/users?username=${this.userDetails.username}`).subscribe((user:any)=>{
           this.cart = user[0].cart;
 
           this.cart.forEach((cartItem:any)=>{
@@ -47,7 +45,7 @@ export class CardPage1Component implements OnInit {
    
    onCartQuantDecrease(productId:any)
    {
-      this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
+      this.httpClient.get(`http://localhost:3000/users?username=${this.userDetails.username}`).subscribe((user:any)=>{
         this.cart = user[0].cart;
 
         this.cart.forEach((cartItem:any) => {
@@ -90,7 +88,7 @@ export class CardPage1Component implements OnInit {
   
    onCartQuantIncrease(productId:any)
    {
-      this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
+      this.httpClient.get(`http://localhost:3000/users?username=${this.userDetails.username}`).subscribe((user:any)=>{
         this.cart = user[0].cart;
 
         this.cart.forEach((cartItem:any) => {
@@ -122,7 +120,7 @@ export class CardPage1Component implements OnInit {
 
    onCartDelete(productId:any)
    {
-    this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
+    this.httpClient.get(`http://localhost:3000/users?username=${this.userDetails.username}`).subscribe((user:any)=>{
       this.cart = user[0].cart;
 
       let index:any;

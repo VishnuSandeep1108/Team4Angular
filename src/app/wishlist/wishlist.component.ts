@@ -17,8 +17,8 @@ export class WishlistComponent implements OnInit {
    ngOnInit(): void {
     
      if(this.userDetails.username!='')
-      {
-        this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
+      {        
+        this.httpClient.get(`http://localhost:3000/users?username=${this.userDetails.username}`).subscribe((user:any)=>{
           this.wishlist = user[0].wishlist;
         })
       }
@@ -40,7 +40,7 @@ export class WishlistComponent implements OnInit {
       {
         console.log("VALID");
         
-        this.httpClient.get('http://localhost:3000/users?username=',this.userDetails.username).subscribe((user:any)=>{
+        this.httpClient.get(`http://localhost:3000/users?username=${this.userDetails.username}`).subscribe((user:any)=>{
           user[0].cart.forEach((item:any)=>{
             if(item.id === event.id)
             {
@@ -70,7 +70,7 @@ export class WishlistComponent implements OnInit {
 
    onWishlistDelete(productId:any)
    {
-    this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
+    this.httpClient.get(`http://localhost:3000/users?username=${this.userDetails.username}`).subscribe((user:any)=>{
       this.wishlist = user[0].wishlist;
 
       let index:any;
