@@ -13,6 +13,9 @@ import { LoginObsService } from '../services/login-obs.service';
 })
 export class CardPage1Component implements OnInit {
   cart:any = [];
+  cartSubTotal:any=0;
+  cartTax:any=0;
+  cartTotal:any=0;
   productQuantity:any = 1;
   constructor(private httpClient:HttpClient,private router:Router,private userDetails:UserDetailsService, private loginObs:LoginObsService){}
    ngOnInit(): void {
@@ -22,6 +25,16 @@ export class CardPage1Component implements OnInit {
 
         this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
           this.cart = user[0].cart;
+
+          this.cart.forEach((cartItem:any)=>{
+            this.cartSubTotal+=(cartItem.price*cartItem.itemCount);
+          })
+
+          this.cartSubTotal = Math.round(this.cartSubTotal);
+
+          this.cartTax = Math.round(0.06*(this.cartSubTotal));
+
+          this.cartTotal = Math.round(this.cartSubTotal + this.cartTax);
       }
     )}
 
@@ -57,6 +70,20 @@ export class CardPage1Component implements OnInit {
 
         this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
           console.log("Product Count Reduced!");
+
+          this.cartSubTotal = 0;
+          this.cartTax = 0;
+          this.cartTotal = 0;
+
+          this.cart.forEach((cartItem:any)=>{
+            this.cartSubTotal+=(cartItem.price*(cartItem.itemCount));
+          })
+
+          this.cartSubTotal = Math.round(this.cartSubTotal);
+
+          this.cartTax = Math.round(0.06*(this.cartSubTotal));
+
+          this.cartTotal = Math.round(this.cartSubTotal + this.cartTax);
         })
       })
    }
@@ -75,6 +102,20 @@ export class CardPage1Component implements OnInit {
 
         this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
           console.log("Product Count Raised!");
+
+          this.cartSubTotal = 0;
+          this.cartTax = 0;
+          this.cartTotal = 0;
+
+          this.cart.forEach((cartItem:any)=>{
+            this.cartSubTotal+=(cartItem.price*(cartItem.itemCount));
+          })
+
+          this.cartSubTotal= Math.round(this.cartSubTotal);
+
+          this.cartTax = Math.round(0.06*(this.cartSubTotal));
+
+          this.cartTotal = Math.round(this.cartSubTotal + this.cartTax);
         })
       })
    }
@@ -96,7 +137,22 @@ export class CardPage1Component implements OnInit {
 
       this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
         console.log("Product Count Reduced!");
+
+        this.cartSubTotal = 0;
+        this.cartTax = 0;
+        this.cartTotal = 0;
+
+        this.cart.forEach((cartItem:any)=>{
+          this.cartSubTotal+=(cartItem.price*cartItem.itemCount);
+        })
+
+        this.cartSubTotal = Math.round(this.cartSubTotal);
+
+        this.cartTax = Math.round(0.06*(this.cartSubTotal));
+
+        this.cartTotal = Math.round(this.cartSubTotal + this.cartTax);
       })
     })
+
    }
 }

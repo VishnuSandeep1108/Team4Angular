@@ -3,7 +3,261 @@
     {
       "username": "John",
       "password": "j",
-      "wishlist": [],
+      "wishlist": [
+        {
+          "id": "178",
+          "title": "Corset Leather With Skirt",
+          "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
+          "category": "womens-dresses",
+          "price": 89.99,
+          "discountPercentage": 19.26,
+          "rating": 2.52,
+          "stock": 59,
+          "itemCount": 1,
+          "tags": [
+            "clothing",
+            "corsets",
+            "skirts"
+          ],
+          "sku": "TU384RG4",
+          "weight": 1,
+          "dimensions": {
+            "width": 19.1,
+            "height": 27.47,
+            "depth": 29.95
+          },
+          "warrantyInformation": "6 months warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Very unhappy with my purchase!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Mason Parker",
+              "reviewerEmail": "mason.parker@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Would not recommend!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Grace Green",
+              "reviewerEmail": "grace.green@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Madison Stewart",
+              "reviewerEmail": "madison.stewart@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 4,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.627Z",
+            "updatedAt": "2024-05-23T08:56:21.627Z",
+            "barcode": "5612433310069",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/1.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/2.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/3.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/thumbnail.png"
+        },
+        {
+          "id": "164",
+          "title": "Gray Dress",
+          "description": "The Gray Dress is a versatile and chic option for various occasions. With a neutral gray color, it can be dressed up or down, making it a wardrobe staple for any fashion-forward individual.",
+          "category": "tops",
+          "price": 34.99,
+          "discountPercentage": 9.32,
+          "rating": 3.49,
+          "stock": 81,
+          "itemCount": 1,
+          "tags": [
+            "clothing",
+            "dresses"
+          ],
+          "sku": "GVBVDYSG",
+          "weight": 5,
+          "dimensions": {
+            "width": 13.86,
+            "height": 19.2,
+            "depth": 8.64
+          },
+          "warrantyInformation": "5 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.626Z",
+              "reviewerName": "Jacob Cooper",
+              "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Poor quality!",
+              "date": "2024-05-23T08:56:21.626Z",
+              "reviewerName": "Mila Hernandez",
+              "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Very dissatisfied!",
+              "date": "2024-05-23T08:56:21.626Z",
+              "reviewerName": "Ella Adams",
+              "reviewerEmail": "ella.adams@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 19,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.626Z",
+            "updatedAt": "2024-05-23T08:56:21.626Z",
+            "barcode": "4089123821366",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/tops/Gray%20Dress/1.png",
+            "https://cdn.dummyjson.com/products/images/tops/Gray%20Dress/2.png",
+            "https://cdn.dummyjson.com/products/images/tops/Gray%20Dress/3.png",
+            "https://cdn.dummyjson.com/products/images/tops/Gray%20Dress/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/tops/Gray%20Dress/thumbnail.png"
+        },
+        {
+          "id": "165",
+          "title": "Short Frock",
+          "description": "The Short Frock is a playful and trendy dress with a shorter length. Ideal for casual outings or special occasions, it combines style and comfort for a fashionable look.",
+          "category": "tops",
+          "price": 24.99,
+          "discountPercentage": 9.47,
+          "rating": 4.63,
+          "stock": 19,
+          "itemCount": 1,
+          "tags": [
+            "clothing",
+            "dresses"
+          ],
+          "sku": "4VA2AFL0",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.35,
+            "height": 8.49,
+            "depth": 5.89
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 1,
+              "comment": "Very unhappy with my purchase!",
+              "date": "2024-05-23T08:56:21.626Z",
+              "reviewerName": "Asher Scott",
+              "reviewerEmail": "asher.scott@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.626Z",
+              "reviewerName": "Penelope Harper",
+              "reviewerEmail": "penelope.harper@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.626Z",
+              "reviewerName": "Nathan Reed",
+              "reviewerEmail": "nathan.reed@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 19,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.626Z",
+            "updatedAt": "2024-05-23T08:56:21.626Z",
+            "barcode": "5470465127276",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/tops/Short%20Frock/1.png",
+            "https://cdn.dummyjson.com/products/images/tops/Short%20Frock/2.png",
+            "https://cdn.dummyjson.com/products/images/tops/Short%20Frock/3.png",
+            "https://cdn.dummyjson.com/products/images/tops/Short%20Frock/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/tops/Short%20Frock/thumbnail.png"
+        },
+        {
+          "id": "163",
+          "title": "Girl Summer Dress",
+          "description": "The Girl Summer Dress is a cute and breezy dress designed for warm weather. With playful patterns and lightweight fabric, it's perfect for keeping cool and stylish during the summer.",
+          "category": "tops",
+          "price": 19.99,
+          "discountPercentage": 6.42,
+          "rating": 2.67,
+          "stock": 20,
+          "itemCount": 1,
+          "tags": [
+            "clothing",
+            "girls' dresses"
+          ],
+          "sku": "99397X82",
+          "weight": 3,
+          "dimensions": {
+            "width": 8.02,
+            "height": 5.01,
+            "depth": 20.55
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.626Z",
+              "reviewerName": "Gabriel Adams",
+              "reviewerEmail": "gabriel.adams@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Poor quality!",
+              "date": "2024-05-23T08:56:21.626Z",
+              "reviewerName": "Addison Ward",
+              "reviewerEmail": "addison.ward@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.626Z",
+              "reviewerName": "Nora Mills",
+              "reviewerEmail": "nora.mills@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 5,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.626Z",
+            "updatedAt": "2024-05-23T08:56:21.626Z",
+            "barcode": "1171873054762",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/tops/Girl%20Summer%20Dress/1.png",
+            "https://cdn.dummyjson.com/products/images/tops/Girl%20Summer%20Dress/2.png",
+            "https://cdn.dummyjson.com/products/images/tops/Girl%20Summer%20Dress/3.png",
+            "https://cdn.dummyjson.com/products/images/tops/Girl%20Summer%20Dress/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/tops/Girl%20Summer%20Dress/thumbnail.png"
+        }
+      ],
       "cart": [],
       "id": "4e9e"
     },

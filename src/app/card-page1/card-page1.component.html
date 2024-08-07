@@ -8,7 +8,7 @@
                         <img src={{product.images[0]}} alt="">
                         <div class="content">
                             <h3>{{product.title}}</h3>
-                            <h4> Rs.1499/-</h4>
+                            <h6> Rs <span class="actual-price">{{((product.price*100)/(100-product.discountPercentage))| number:'1.2-2' }}</span> &nbsp; <span class="discount">{{product.discountPercentage}}% OFF</span></h6>
                             <h3>Price: Rs. {{product.price}}/-</h3>
                             <!-- <button class="quantityBtn">-</button><p> {{product.itemCount}} </p><button class="quantityBtn">+</button> -->
                             <h3><span class="quantityBtn" (click)="onCartQuantDecrease(product.id)">-</span><span> {{product.itemCount}} </span><span class="quantityBtn" (click)="onCartQuantIncrease(product.id)">+</span></h3>
@@ -21,9 +21,9 @@
                     
                 </div>
                 <div class="right-bar">
-                    <p><span>Subtotal:</span> <span>Rs. 2497/-</span></p>
-                    <p><span>Tax (6%):</span> <span>Rs. 149.82/-</span></p>
-                    <p><span>Total:</span> <span>Rs. 2646.82/-</span></p>
+                    <p><span>Subtotal:</span> <span>Rs. {{cartSubTotal}}</span></p>
+                    <p><span>Tax (6%):</span> <span>Rs. {{cartTax}}/-</span></p>
+                    <p><span>Total:</span> <span>Rs. {{cartTotal}}/-</span></p>
                     <a href="#"><i class="fa fa-shopping-cart"></i> Buy Now</a>
                 </div>
             </div>
