@@ -15,28 +15,10 @@ import { KidsComponent } from './kids/kids.component';
 import { CardPage1Component } from './card-page1/card-page1.component';
 import { HomeComponent } from './home/home.component';
 import { FootwearComponent } from './footwear/footwear.component';
-import { FirstPageComponent } from './first-page/first-page.component';
-import { TemplateModule } from './template/template.module';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { CardComponent } from './card/card.component';
 import { UpiComponent } from './upi/upi.component';
 import { ContinueShopComponent } from './continue-shop/continue-shop.component';
-
-
-const appRoutes: Routes=[
-  {path:'',component:FirstPageComponent},
-  {path:'login',component:LoginComponent},
-  {path:'home',component:HomeComponent},
-  {path:'mens',component:MensComponent},
-  {path:'women',component:WomensComponent},
-  {path:'kids',component:KidsComponent},
-  {path:'footwear',component:FootwearComponent},
-  {path:'cart',component:CardPage1Component},
-  {path:'wishlist',component:WishlistComponent},
-  {path:'checkout',component:CheckoutComponent},
-  {path:'card',component:CardComponent},
-  {path:'continue',component:ContinueShopComponent}
-]
 
 const appRoute:Routes = [
   {path:'',component:HomeComponent},
@@ -59,13 +41,13 @@ const appRoute:Routes = [
     WishlistComponent,
     MensComponent,
     WomensComponent,
+    LoginComponent,
     HeaderComponent,
     FooterComponent,
     KidsComponent,
     CardPage1Component,
     HomeComponent,
     FootwearComponent,
-    FirstPageComponent,
     CheckoutComponent,
     CardComponent,
     UpiComponent,
@@ -80,7 +62,4 @@ const appRoute:Routes = [
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-
-
- }
+export class AppModule { }

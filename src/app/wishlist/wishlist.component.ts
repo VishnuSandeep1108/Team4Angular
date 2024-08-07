@@ -27,6 +27,7 @@ export class WishlistComponent implements OnInit {
 
       else
       {
+        this.loginObs.onLoggingInHandler({refresh:false});
         this.router.navigate(['auth']);
       }
    }

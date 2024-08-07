@@ -44,4 +44,9 @@ export class HeaderComponent {
   {
     this.loginObs.onLoggingInHandler({refresh:false})
   }
+ 
+  onLogout()
+  {
+    this.loginObs.onLoggingInHandler({refresh:true})
+  }
 }

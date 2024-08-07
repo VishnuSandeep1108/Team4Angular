@@ -1,6 +1,6 @@
 
 <section id="payment-header" class="dark">
-    <h1>Paying ₹199</h1>
+    <h1>Paying ₹{{totalAmount}}</h1>
   </section>
   <div class="card">
     <div class="container-fluid">
@@ -9,8 +9,6 @@
           <div class="payment-box card p-3">
             <form #paymentForm="ngForm" (ngSubmit)="onSubmit(paymentForm)" novalidate>
               <div class="row justify-content-center mb-4 radio-group">
-                <!-- Radio buttons for card types -->
-                <!-- Add your radio buttons here -->
                 <div class="col-sm-3 col-5">
                     <div class="radio mx-auto" data-value="amex">
                       <img
