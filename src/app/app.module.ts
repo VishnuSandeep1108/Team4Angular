@@ -39,8 +39,7 @@ const appRoute:Routes = [
     CardPage1Component,
     HomeComponent,
     FootwearComponent,
-    FirstComponent,
-    NewhaderComponent
+    LoginComponent
   ],
   imports: [
     BrowserModule,
