@@ -58,7 +58,7 @@ export class LoginComponent {
 
       else
       {
-        this.httpClient.post('http://localhost:3000/users',{username:this.username,password: this.password}).subscribe((response:any)=>{
+        this.httpClient.post('http://localhost:3000/users',{username:this.username,password: this.password,wishlist: [],cart: []}).subscribe((response:any)=>{
           this.router.navigate(['auth']);
         })
       }

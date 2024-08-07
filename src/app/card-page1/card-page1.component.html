@@ -11,11 +11,11 @@
                             <h4> Rs.1499/-</h4>
                             <h3>Price: Rs. {{product.price}}/-</h3>
                             <!-- <button class="quantityBtn">-</button><p> {{product.itemCount}} </p><button class="quantityBtn">+</button> -->
-                            <h3><span class="quantityBtn" >-</span><span> {{product.itemCount}} </span><span class="quantityBtn" >+</span></h3>
+                            <h3><span class="quantityBtn" (click)="onCartQuantDecrease(product.id)">-</span><span> {{product.itemCount}} </span><span class="quantityBtn" (click)="onCartQuantIncrease(product.id)">+</span></h3>
                         </div>
                         <p class="btn-area">
                             <i class="fa fa-trash"></i>
-                            <span class="btn2">Remove</span>
+                            <span class="btn2" (click)="onCartDelete(product.id)">Remove</span>
                         </p>
                     </div>
                     

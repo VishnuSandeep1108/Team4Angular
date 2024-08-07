@@ -5,6 +5,6 @@
         <h3>{{product.title}}</h3>
         <h5>Price:Rs.{{product.price}}</h5>
         <p> <button class="button button1" (click)="onAddCart(product)">Add to cart</button></p>
-        <p> <button class="button button2">Delete</button></p>
+        <p> <button class="button button2" (click)="onWishlistDelete(product.id)">Delete</button></p>
     </div>
 </div>

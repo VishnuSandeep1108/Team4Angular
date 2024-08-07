@@ -13,7 +13,6 @@ import { LoginObsService } from '../services/login-obs.service';
 })
 export class CardPage1Component implements OnInit {
   cart:any = [];
-  user:any;
   productQuantity:any = 1;
   constructor(private httpClient:HttpClient,private router:Router,private userDetails:UserDetailsService, private loginObs:LoginObsService){}
    ngOnInit(): void {
@@ -31,5 +30,73 @@ export class CardPage1Component implements OnInit {
         this.loginObs.onLoggingInHandler({refresh:false});
         this.router.navigate(['auth']);
       }
-   } 
+   }
+   
+   onCartQuantDecrease(productId:any)
+   {
+      this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
+        this.cart = user[0].cart;
+
+        this.cart.forEach((cartItem:any) => {
+          if(cartItem.id === productId)
+            cartItem.itemCount--;
+
+            let index:any;
+
+            if(cartItem.itemCount === 0)
+            {
+                index = this.cart.findIndex((item:any)=>{
+                return item.id === productId;
+              })
+
+              this.cart.splice(index,1);
+            }
+        });
+
+        user[0].cart = this.cart;
+
+        this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+          console.log("Product Count Reduced!");
+        })
+      })
+   }
+  
+   onCartQuantIncrease(productId:any)
+   {
+      this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
+        this.cart = user[0].cart;
+
+        this.cart.forEach((cartItem:any) => {
+          if(cartItem.id === productId)
+            cartItem.itemCount++;
+        });
+
+        user[0].cart = this.cart;
+
+        this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+          console.log("Product Count Raised!");
+        })
+      })
+   }
+
+   onCartDelete(productId:any)
+   {
+    this.httpClient.get(`http://localhost:3000/users?${this.userDetails.username}`).subscribe((user:any)=>{
+      this.cart = user[0].cart;
+
+      let index:any;
+
+      index = this.cart.findIndex((item:any)=>{
+        return item.id === productId;
+      })
+
+      this.cart.splice(index,1);
+
+      user[0].cart = this.cart;
+
+      this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+        console.log("Product Count Reduced!");
+      })
+    })
+   }
 }

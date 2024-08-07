@@ -22,13 +22,30 @@ export class MensComponent implements OnInit {
 
    onWishlist(event:any)
    {
+      let flag:boolean = false;
       if(this.userDetails.username!='')
       {
         this.httpClient.get('http://localhost:3000/users?username=',this.userDetails.username).subscribe((user:any)=>{
-          user[0].wishlist.push(event);
-          this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
-            alert("Wishlisted Successfully!")
+          user[0].wishlist.forEach((item:any)=>{
+            if(item.id === event.id)
+            {
+              flag = true;
+              return;
+            }
           })
+
+          if(flag === false)
+          {
+            user[0].wishlist.push(event);
+            this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+              alert("Wishlisted Successfully!")
+            })
+          }
+
+          else
+          {
+            alert("Already Wishlisted!");
+          }
         })
       }
 
@@ -42,14 +59,26 @@ export class MensComponent implements OnInit {
    onAddCart(event:any)
    {
     console.log(this.userDetails.username);
+    let flag:boolean=false;
     
     if(this.userDetails.username!='')
       {
         console.log("VALID");
         
         this.httpClient.get('http://localhost:3000/users?username=',this.userDetails.username).subscribe((user:any)=>{
-          user[0].cart.push(event);
-          console.log(user);
+          user[0].cart.forEach((item:any)=>{
+            if(item.id === event.id)
+            {
+              item.itemCount++;
+              flag = true;
+              return;
+            }
+          })
+
+          if(flag === false)
+          {
+            user[0].cart.push(event);
+          }
           
           this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
             alert("Added to Cart Successfully!")
