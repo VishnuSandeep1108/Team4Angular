@@ -4,121 +4,34 @@
     <div class="product-display">
         <h1>Footwear Collection</h1>
         <div class="product-display-container">
-            <div class="card">
-                <img class="card-img-top" src="../../assets/footwear-images/foot1.jpg">
+            
+            <div *ngFor="let product of footwear" class="card">
+                <img class="card-img-top" src={{product.images[0]}} />
                 <div class="card-body productDetails">
-                    <h4 class="card-title">Fashioneers</h4>
-                    <p class="card-text">Shoes</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
+                  <h4 class="card-title">{{product.title}}</h4>
+                  <p class="card-text">{{product.brand}}</p>
+                  <p class="card-text">
+                    Rs. {{product.price}} <span class="strikedPrice"><del>Rs. 1499</del></span> (68%
+                    off)
+                  </p>
                 </div>
                 <div class="card-body wishlist">
-                    <a href="Wishlistn.html" class="btn wishlistButton"><i class="fa-solid fa-heart"></i> Wishlist</a>
-                    <a href="cartpage.html" class="btn wishlistButton"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
-                    <p class="card-text">Size: S</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
+                  <a class="btn wishlistButton" (click)="onWishlist(product)"
+                    ><i class="fa-solid fa-heart"></i> Wishlist</a
+                  >
+                  <a class="btn wishlistButton" (click)="onAddCart(product)"
+                    ><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a
+                  >
+                  <p class="card-text">Size: S</p>
+                  <p class="card-text">
+                    Rs. {{product.price}} <span class="strikedPrice"><del>Rs. 1499</del></span> (68%
+                    off)
+                  </p>
                 </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="../../assets/footwear-images/foot2.jpg">
-                <div class="card-body productDetails">
-                    <h4 class="card-title">Fashioneers</h4>
-                    <p class="card-text">Shoes</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-                <div class="card-body wishlist">
-                    <a href="Wishlistn.html" class="btn wishlistButton"><i class="fa-solid fa-heart"></i> Wishlist</a>
-                    <a href="cartpage.html" class="btn wishlistButton"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
-                    <p class="card-text">Size: S</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../../assets/footwear-images/foot3.jpg">
-                <div class="card-body productDetails">
-                    <h4 class="card-title">Fashioneers</h4>
-                    <p class="card-text">Shoes</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-                <div class="card-body wishlist">
-                    <a href="Wishlistn.html" class="btn wishlistButton"><i class="fa-solid fa-heart"></i> Wishlist</a>
-                    <a href="cartpage.html" class="btn wishlistButton"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
-                    <p class="card-text">Size: S</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../../assets/footwear-images/foot1.jpg">
-                <div class="card-body productDetails">
-                    <h4 class="card-title">Fashioneers</h4>
-                    <p class="card-text">Shoes</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-                <div class="card-body wishlist">
-                    <a href="Wishlistn.html" class="btn wishlistButton"><i class="fa-solid fa-heart"></i> Wishlist</a>
-                    <a href="cartpage.html" class="btn wishlistButton"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
-                    <p class="card-text">Size: S</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../../assets/footwear-images/foot5.jpg">
-                <div class="card-body productDetails">
-                    <h4 class="card-title">Fashioneers</h4>
-                    <p class="card-text">Shoes</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-                <div class="card-body wishlist">
-                    <a href="Wishlistn.html" class="btn wishlistButton"><i class="fa-solid fa-heart"></i> Wishlist</a>
-                    <a href="cartpage.html" class="btn wishlistButton"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
-                    <p class="card-text">Size: S</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../../assets/footwear-images/foot6.jpg">
-                <div class="card-body productDetails">
-                    <h4 class="card-title">Fashioneers</h4>
-                    <p class="card-text">Shoes</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-                <div class="card-body wishlist">
-                    <a href="Wishlistn.html" class="btn wishlistButton"><i class="fa-solid fa-heart"></i> Wishlist</a>
-                    <a href="cartpage.html" class="btn wishlistButton"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
-                    <p class="card-text">Size: S</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../../assets/footwear-images/foot7.jpg">
-                <div class="card-body productDetails">
-                    <h4 class="card-title">Fashioneers</h4>
-                    <p class="card-text">Shoes</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-                <div class="card-body wishlist">
-                    <a href="Wishlistn.html" class="btn wishlistButton"><i class="fa-solid fa-heart"></i> Wishlist</a>
-                    <a href="cartpage.html" class="btn wishlistButton"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
-                    <p class="card-text">Size: S</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../../assets/footwear-images/foot8.jpg">
-                <div class="card-body productDetails">
-                    <h4 class="card-title">Fashioneers</h4>
-                    <p class="card-text">Shoes</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-                <div class="card-body wishlist">
-                    <a href="Wishlistn.html" class="btn wishlistButton"><i class="fa-solid fa-heart"></i> Wishlist</a>
-                    <a href="cartpage.html" class="btn wishlistButton"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a>
-                    <p class="card-text">Size: S</p>
-                    <p class="card-text">Rs. 479 <span class="strikedPrice"><del>Rs. 1499</del></span> (68% off)</p>
-                </div>
-            </div>
+              </div>
+
         </div>
         <div><p></p></div>
-        <!-- <a href="#" class="btn shopNew"><i class="fa-solid fa-cart-shopping"></i> Shop New</a> -->
     </div>
   </div>
 

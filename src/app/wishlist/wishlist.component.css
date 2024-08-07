@@ -4,6 +4,10 @@
     /*  box-sizing: border-box; */
 }
 
+.wrapper{
+    overflow-x: hidden;
+}
+
 /* home css */
 .navbar {
     /* z-index: 100; */

@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
-import { Router,ActivatedRoute, RouterLink } from '@angular/router';
-import { MensComponent } from '../mens/mens.component';
-import { CardPage1Component } from '../card-page1/card-page1.component';
-import { WomensComponent } from '../womens/womens.component';
-import { CartServiceService } from '../cart-service.service';
+import { Component, EventEmitter, Output } from '@angular/core';
+import { Router,ActivatedRoute } from '@angular/router';
+
+
+import { LoginObsService } from '../services/login-obs.service';
+import { LoginBtnDisplayService } from '../services/login-btn-display.service';
+import { UserDetailsService } from '../services/user-details.service';
 
 @Component({
   selector: 'app-header',
@@ -11,10 +12,28 @@ import { CartServiceService } from '../cart-service.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  d:any
-  constructor(public b:MensComponent,public c:WomensComponent,public e:CardPage1Component,public g:CartServiceService){
-    this.d=g.carttotal
+  loginBtnDisplay:boolean = true;
+  constructor(private loginObs:LoginObsService, private loginBtnDisplayService:LoginBtnDisplayService, private userDetails:UserDetailsService,private router:Router){
+    this.loginBtnDisplayService.notifyObservable$.subscribe((res)=>{
+      this.loginBtnDisplay = res.refresh;
+    })
   }
 
-  
+  loginCheck()
+  {
+    console.log("CHECKED");
+    
+    if(this.userDetails.username == '')
+    {
+      console.log("YES");
+      
+      this.loginObs.onLoggingInHandler({refresh:false});
+      this.router.navigate(['auth']);
+    }
+  }
+
+  onAuthHandler()
+  {
+    this.loginObs.onLoggingInHandler({refresh:false})
+  }
 }

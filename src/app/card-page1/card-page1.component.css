@@ -8,8 +8,12 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-wrapper{
     overflow-x: hidden;
 }
+
 .navbar{
 /* z-index: 100; */
 padding: 20px 20px 20px 60px;
@@ -53,13 +57,13 @@ border-bottom-color: black;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background:  rgb(201, 239, 228);
+    background: white;
 }
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background:  rgb(201, 239, 228);
+    background: white;
     border-radius: 8px;
     box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0; 
 }
@@ -78,7 +82,7 @@ border-bottom-color: black;
     gap: 10px;
     height: 250px;
     padding: 10px;
-    background: beige;
+    background: rgb(234, 234, 234);
     border-radius: 8px;
     transition: all 0.7s ease;
     /* box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0; */
@@ -101,11 +105,17 @@ border-bottom-color: black;
     margin-bottom: 10px;
     font-size: 20px;
 }
-.content h4 {
+.content .actual-price {
     margin-bottom: 10px;
     font-size: 12px;
     text-decoration: line-through;
 }
+
+.content .content .discount{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
 .btn-area {
     cursor: pointer; 
     background-color: gray;/*#76bfb6*/
@@ -130,12 +140,17 @@ border-bottom-color: black;
     padding: 20px;
     width: 300px;
     height: 300px;
-    background: beige;
+    background: #fff;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
     display: flex;
     flex-direction: column;
 }
+
+.quantityBtn:hover{
+    cursor: pointer;
+}
+
 .right-bar p {
     display: flex;
     justify-content: space-between;
@@ -167,7 +182,7 @@ border-bottom-color: black;
     }
     
 
-    .content h4{
+    .content .actual-price{
         display: none;
     }
 }
@@ -184,7 +199,7 @@ border-bottom-color: black;
     .content h3 {
         margin-bottom: 5px;
     }
-    .content h4 {
+    .content.actual-price {
         margin-bottom: 5px;
     }
     .btn-area {
@@ -286,4 +301,4 @@ padding: 0;
 .footer-left, .footer-center, .footer-right {
 padding: 20px;
 }
-} 
+}
