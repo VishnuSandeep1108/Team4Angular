@@ -4,6 +4,8 @@ import { Router,ActivatedRoute } from '@angular/router';
 
 import { UserDetailsService } from '../services/user-details.service';
 import { LoginObsService } from '../services/login-obs.service';
+import { HeaderCountsService } from '../services/header-counts.service';
+
 
 
 @Component({
@@ -17,7 +19,7 @@ export class CardPage1Component implements OnInit {
   cartTax:any=0;
   cartTotal:any=0;
   productQuantity:any = 1;
-  constructor(private httpClient:HttpClient,private router:Router,private userDetails:UserDetailsService, private loginObs:LoginObsService){}
+  constructor(private httpClient:HttpClient,private router:Router,private userDetails:UserDetailsService, private loginObs:LoginObsService, private headerCounts:HeaderCountsService){}
    ngOnInit(): void {
     if(this.userDetails.username!='')
       {
@@ -67,6 +69,7 @@ export class CardPage1Component implements OnInit {
         user[0].cart = this.cart;
 
         this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+          this.headerCounts.updateCount();
           console.log("Product Count Reduced!");
 
           this.cartSubTotal = 0;
@@ -99,6 +102,7 @@ export class CardPage1Component implements OnInit {
         user[0].cart = this.cart;
 
         this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+          this.headerCounts.updateCount();
           console.log("Product Count Raised!");
 
           this.cartSubTotal = 0;
@@ -134,6 +138,7 @@ export class CardPage1Component implements OnInit {
       user[0].cart = this.cart;
 
       this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+        this.headerCounts.updateCount();
         console.log("Product Count Reduced!");
 
         this.cartSubTotal = 0;

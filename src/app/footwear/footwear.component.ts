@@ -4,6 +4,8 @@ import { Router,ActivatedRoute } from '@angular/router';
 
 import { UserDetailsService } from '../services/user-details.service';
 import { LoginObsService } from '../services/login-obs.service';
+import { HeaderCountsService } from '../services/header-counts.service';
+
 
 
 @Component({
@@ -14,7 +16,7 @@ import { LoginObsService } from '../services/login-obs.service';
 export class FootwearComponent implements OnInit {
   footwear:any = [];
   dummy:any = [];
-  constructor(private httpClient:HttpClient,private router:Router,private userDetails:UserDetailsService,private loginObs:LoginObsService){}
+  constructor(private httpClient:HttpClient,private router:Router,private userDetails:UserDetailsService,private loginObs:LoginObsService, private headerCounts:HeaderCountsService){}
    ngOnInit(): void {
      this.httpClient.get(`http://localhost:3000/mens-footwear`).subscribe((response:any)=>{
         this.footwear = response;
@@ -39,6 +41,7 @@ export class FootwearComponent implements OnInit {
           {
             user[0].wishlist.push(event);
             this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+              this.headerCounts.updateCount();
               alert("Wishlisted Successfully!")
             })
           }
@@ -82,6 +85,7 @@ export class FootwearComponent implements OnInit {
           }
           
           this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+            this.headerCounts.updateCount();
             alert("Added to Cart Successfully!")
           })
         })

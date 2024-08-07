@@ -4,6 +4,7 @@ import { Router,ActivatedRoute } from '@angular/router';
 
 import { UserDetailsService } from '../services/user-details.service';
 import { LoginObsService } from '../services/login-obs.service';
+import { HeaderCountsService } from '../services/header-counts.service';
 
 
 @Component({
@@ -13,7 +14,7 @@ import { LoginObsService } from '../services/login-obs.service';
 })
 export class KidsComponent implements OnInit {
   kids:any = [];
-  constructor(private httpClient:HttpClient,private router:Router,private userDetails:UserDetailsService,private loginObs:LoginObsService){}
+  constructor(private httpClient:HttpClient,private router:Router,private userDetails:UserDetailsService,private loginObs:LoginObsService, private headerCounts:HeaderCountsService){}
    ngOnInit(): void {
      this.httpClient.get(`http://localhost:3000/kids`).subscribe((response:any)=>{
        this.kids = response;
@@ -38,6 +39,7 @@ export class KidsComponent implements OnInit {
           {
             user[0].wishlist.push(event);
             this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+              this.headerCounts.updateCount();
               alert("Wishlisted Successfully!")
             })
           }
@@ -81,6 +83,7 @@ export class KidsComponent implements OnInit {
           }
           
           this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
+            this.headerCounts.updateCount();
             alert("Added to Cart Successfully!")
           })
         })

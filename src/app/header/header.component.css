@@ -3,32 +3,21 @@
     padding: 0;
 }
 
-.product-display-root{
-    width: 100vw;
-    /* background-color: rgb(234, 234, 234); */
-}
-
-nav{
-    width: 100vw;
-    overflow-x: hidden;
-}
-
 .navbar{
-    /* z-index: 100; */
     padding: 20px 20px 20px 60px;
     background-color: rgb(234, 234, 234);
     animation: slideDown 1s linear;
 }
-/* 
-.navbar-collapse{
-    padding-right: 0px;
-} */
 
 .navbar-brand{
     font-family: "Cinzel Decorative", serif;
     font-weight: 900;
     font-style: normal;
     font-size: 180%;
+}
+
+.nav-item{
+    text-align: center;
 }
 
 .navbar-nav{
@@ -57,70 +46,7 @@ nav{
 }
 
 
-footer{
-    display: grid;
-    grid-template-columns: 3fr 2fr 3fr;
-    padding: 50px;
-    background-color: gray;
-}
 
-footer h6{
-    color: black;
-    font-weight: bold;
-    font-size: 102%;
-}
-
-.footer-left{
-    padding: 10px;
-    padding-right: 30px;
-}
-
-.footer-center, .footer-right{
-    color: white;
-}
-
-.footer-center > i{
-    color: white;
-    margin: 20px 10px;
-}
-
-.footer-right{
-    width: auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 0px;
-}
-
-.footer-right > ul{
-    list-style: none;
-}
-
-.footer-right > ul > li >a{
-    color: white;
-    text-decoration: none;
-}
-
-::-webkit-scrollbar {
-    width: 1px;
-}
-
-::-webkit-scrollbar:hover{
-    width: 10px;
-}
-
-::-webkit-scrollbar-track{
-    background-color: rgb(234, 234, 234);
-}
-  
-::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 5px;
-  }
-  
-::-webkit-scrollbar-track:hover {
-    background: #aaa;
-    border-radius: 5px;
-  }
 
 .product-display{
     margin: 0 auto;

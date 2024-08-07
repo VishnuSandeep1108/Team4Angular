@@ -5,6 +5,7 @@ import { HttpClient } from '@angular/common/http';
 import { LoginObsService } from '../services/login-obs.service';
 import { LoginBtnDisplayService } from '../services/login-btn-display.service';
 import { UserDetailsService } from '../services/user-details.service';
+import { HeaderCountsService } from '../services/header-counts.service';
 
 @Component({
   selector: 'app-login',
@@ -14,7 +15,7 @@ import { UserDetailsService } from '../services/user-details.service';
 export class LoginComponent {
   username:String = '';
   password:String = '';
-  constructor(private router:Router, private loginObs:LoginObsService, private loginBtnDisplay:LoginBtnDisplayService, private httpClient:HttpClient, private userDetails:UserDetailsService){}
+  constructor(private router:Router, private loginObs:LoginObsService, private loginBtnDisplay:LoginBtnDisplayService, private httpClient:HttpClient, private userDetails:UserDetailsService,private headerCounts:HeaderCountsService){}
 
   onLoginHandler(event:any)
   {
@@ -30,6 +31,7 @@ export class LoginComponent {
           this.loginBtnDisplay.onLoginSuccess({refresh:false});
           this.userDetails.onLogin({username:this.username});
               
+          this.headerCounts.updateCount();
           this.router.navigate(['']);
         }
 
