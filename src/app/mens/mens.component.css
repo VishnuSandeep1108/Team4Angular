@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.product-display {
+.product-display-root {
   overflow-x: hidden;
 }
 
@@ -64,6 +64,9 @@
 .product-display-container > .card {
   /* height: 95%; */
   overflow: hidden;
+  box-shadow: 0 1px 2px black;
+  border:2px solid gray
+
 }
 
 .card-body.wishlist {
