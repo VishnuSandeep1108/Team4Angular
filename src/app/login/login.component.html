@@ -1,0 +1,25 @@
+<div class="account-page">
+    <div class="form-container">
+        <input type="radio" name="toggle" id="login" class="toggle-radio" checked>
+        <input type="radio" name="toggle" id="signup" class="toggle-radio">
+        <div class="form-btn">
+            <label for="login" class="toggle-label login-label">Login</label>
+            <label for="signup" class="toggle-label signup-label">Sign-up</label>
+            <div id="Indicator"></div>
+        </div>
+
+        <form id="LoginForm" class="form-content">
+            <input type="text" placeholder="Username" name="username" [(ngModel)]="username" required>
+            <input type="password" placeholder="Password" name="password" [(ngModel)]="password" required>
+            <button type="submit" class="btn" (click)="onLoginHandler($event)">Login</button>
+            <!-- <a href="#">Forgot Password?</a> -->
+        </form>
+
+        <form id="RegForm" class="form-content">
+            <input type="text" placeholder="Username" name="username" [(ngModel)]="username" required>
+            <input type="password" placeholder="Password" name="password" [(ngModel)]="password" required>
+            <button type="submit" class="btn" (click)="onRegisterHandler($event)">Register</button>
+        </form>
+    </div>
+</div>
+

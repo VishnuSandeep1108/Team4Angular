@@ -1,0 +1,34 @@
+
+
+<div class="product-display">
+  <h1>Men's Collection</h1>
+  <div class="product-display-container">
+    
+    <div *ngFor="let product of mens" class="card">
+      <img class="card-img-top" src={{product.images[0]}} />
+      <div class="card-body productDetails">
+        <h4 class="card-title">{{product.title}}</h4>
+        <p class="card-text">{{product.brand}}</p>
+        <p class="card-text">
+          Rs. {{product.price}} <span class="strikedPrice"><del>Rs. 1499</del></span> (68%
+          off)
+        </p>
+      </div>
+      <div class="card-body wishlist">
+        <a class="btn wishlistButton" (click)="onWishlist(product)"
+          ><i class="fa-solid fa-heart"></i> Wishlist</a
+        >
+        <a class="btn wishlistButton" (click)="onAddCart(product)"
+          ><i class="fa-solid fa-cart-shopping"></i> Add to Cart</a
+        >
+        <p class="card-text">Size: S</p>
+        <p class="card-text">
+          Rs. {{product.price}} <span class="strikedPrice"><del>Rs. 1499</del></span> (68%
+          off)
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <div><p></p></div>
+</div>
