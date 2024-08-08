@@ -15,6 +15,7 @@ import { HeaderCountsService } from '../services/header-counts.service';
 })
 export class CardPage1Component implements OnInit {
   cart:any = [];
+  cartEmpty:any = true;
   cartSubTotal:any=0;
   cartTax:any=0;
   cartTotal:any=0;
@@ -25,6 +26,11 @@ export class CardPage1Component implements OnInit {
       {
         this.httpClient.get(`http://localhost:3000/users?username=${this.userDetails.username}`).subscribe((user:any)=>{
           this.cart = user[0].cart;
+          
+          if(this.cart.length === 0)
+            this.cartEmpty = true;
+          else
+            this.cartEmpty = false;
 
           this.cart.forEach((cartItem:any)=>{
             this.cartSubTotal+=(cartItem.price*cartItem.itemCount);
@@ -67,6 +73,11 @@ export class CardPage1Component implements OnInit {
         });
 
         user[0].cart = this.cart;
+
+        if(this.cart.length === 0)
+          this.cartEmpty = true;
+        else
+          this.cartEmpty = false;
 
         this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
           this.headerCounts.updateCount();
@@ -136,6 +147,11 @@ export class CardPage1Component implements OnInit {
       this.cart.splice(index,1);
 
       user[0].cart = this.cart;
+
+      if(this.cart.length === 0)
+        this.cartEmpty = true;
+      else
+        this.cartEmpty = false;
 
       this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
         this.headerCounts.updateCount();

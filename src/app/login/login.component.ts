@@ -37,12 +37,14 @@ export class LoginComponent {
 
         else
         {
+          alert("Incorrect Password")
           this.router.navigate(['auth']);
         }
       }
 
       else
       {
+        alert("Username does not exist")
         this.router.navigate(['auth']);
       }
     })
@@ -55,11 +57,13 @@ export class LoginComponent {
     this.httpClient.get('http://localhost:3000/users?username='+this.username).subscribe((response:any)=>{
       if(response.length!=0)
       {
+        alert("Username already in use")
         this.router.navigate(['auth']);
       }
 
       else
       {
+        alert("successfully Signed Up, Please Login to proceed")
         this.httpClient.post('http://localhost:3000/users',{username:this.username,password: this.password,wishlist: [],cart: []}).subscribe((response:any)=>{
           this.router.navigate(['auth']);
         })

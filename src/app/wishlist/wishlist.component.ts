@@ -15,6 +15,7 @@ import { HeaderCountsService } from '../services/header-counts.service';
 })
 export class WishlistComponent implements OnInit {
   wishlist:any = [];
+  wishlistEmpty:any = true;
   constructor(private httpClient:HttpClient,private userDetails:UserDetailsService,private router:Router,private loginObs:LoginObsService, private headerCounts:HeaderCountsService){}
    ngOnInit(): void {
     
@@ -22,6 +23,11 @@ export class WishlistComponent implements OnInit {
       {        
         this.httpClient.get(`http://localhost:3000/users?username=${this.userDetails.username}`).subscribe((user:any)=>{
           this.wishlist = user[0].wishlist;
+
+          if(this.wishlist.length === 0)
+            this.wishlistEmpty = true;
+          else
+            this.wishlistEmpty = false;
         })
       }
 
@@ -86,6 +92,11 @@ export class WishlistComponent implements OnInit {
       this.wishlist.splice(index,1);
 
       user[0].wishlist = this.wishlist;
+      
+      if(this.wishlist.length === 0)
+        this.wishlistEmpty = true;
+      else
+        this.wishlistEmpty = false;
 
       this.httpClient.put(`http://localhost:3000/users/${user[0].id}`,user[0]).subscribe((response:any)=>{
         this.headerCounts.updateCount();

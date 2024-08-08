@@ -1,7 +1,7 @@
     <!-- Cart Section -->
     <div class="content-wrapper">
         <div class="wrapper">
-            <div class="project">
+            <div *ngIf="!cartEmpty" class="project">
                 <div class="shop">
 
                     <div *ngFor="let product of cart" class="box">
@@ -26,6 +26,10 @@
                     <p><span>Total:</span> <span>Rs. {{cartTotal}}/-</span></p>
                     <a routerLink="/checkout"><i class="fa fa-shopping-cart"></i> Buy Now</a>
                 </div>
+            </div>
+
+            <div *ngIf="cartEmpty" class="empty-cart">
+                <img src="../../assets/empty-cart.gif">
             </div>
         </div>
     </div>
