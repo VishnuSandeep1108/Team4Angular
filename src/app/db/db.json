@@ -4,109 +4,7 @@
       "id": "aacd",
       "username": "John",
       "password": "j",
-      "wishlist": [],
-      "cart": [
-        {
-          "id": "86",
-          "title": "Man Short Sleeve Shirt",
-          "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
-          "category": "mens-shirts",
-          "price": 19.99,
-          "discountPercentage": 8.65,
-          "rating": 4.62,
-          "stock": 20,
-          "itemCount": 5,
-          "tags": [
-            "clothing",
-            "men's shirts"
-          ],
-          "brand": "Casual Comfort",
-          "sku": "KEVGVDTV",
-          "weight": 2,
-          "dimensions": {
-            "width": 7.11,
-            "height": 28.63,
-            "depth": 27.54
-          },
-          "warrantyInformation": "5 year warranty",
-          "shippingInformation": "Ships in 2 weeks",
-          "availabilityStatus": "In Stock",
-          "reviews": [
-            {
-              "rating": 5,
-<<<<<<< HEAD
-              "comment": "Great value for money!",
-              "date": "2024-05-23T08:56:21.623Z",
-              "reviewerName": "Caleb Nelson",
-              "reviewerEmail": "caleb.nelson@x.dummyjson.com"
-            },
-            {
-              "rating": 1,
-              "comment": "Disappointing product!",
-              "date": "2024-05-23T08:56:21.623Z",
-              "reviewerName": "Emily Johnson",
-              "reviewerEmail": "emily.johnson@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Great product!",
-              "date": "2024-05-23T08:56:21.623Z",
-              "reviewerName": "Mila Hernandez",
-              "reviewerEmail": "mila.hernandez@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "7 days return policy",
-          "minimumOrderQuantity": 1,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.623Z",
-            "updatedAt": "2024-05-23T08:56:21.623Z",
-            "barcode": "8162805546713",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Short%20Sleeve%20Shirt/1.png",
-            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Short%20Sleeve%20Shirt/2.png",
-            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Short%20Sleeve%20Shirt/3.png",
-            "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Short%20Sleeve%20Shirt/4.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Short%20Sleeve%20Shirt/thumbnail.png"
-=======
-              "comment": "Very happy with my purchase!",
-              "date": "2024-05-23T08:56:21.623Z",
-              "reviewerName": "Lucas Allen",
-              "reviewerEmail": "lucas.allen@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Awesome product!",
-              "date": "2024-05-23T08:56:21.623Z",
-              "reviewerName": "Mason Pearson",
-              "reviewerEmail": "mason.pearson@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Very satisfied!",
-              "date": "2024-05-23T08:56:21.623Z",
-              "reviewerName": "Hunter Gordon",
-              "reviewerEmail": "hunter.gordon@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "90 days return policy",
-          "minimumOrderQuantity": 9,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.623Z",
-            "updatedAt": "2024-05-23T08:56:21.623Z",
-            "barcode": "3562849555769",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/mens-shoes/Puma%20Future%20Rider%20Trainers/1.png",
-            "https://cdn.dummyjson.com/products/images/mens-shoes/Puma%20Future%20Rider%20Trainers/2.png",
-            "https://cdn.dummyjson.com/products/images/mens-shoes/Puma%20Future%20Rider%20Trainers/3.png",
-            "https://cdn.dummyjson.com/products/images/mens-shoes/Puma%20Future%20Rider%20Trainers/4.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Puma%20Future%20Rider%20Trainers/thumbnail.png"
-        },
+      "wishlist": [
         {
           "id": "89",
           "title": "Nike Baseball Cleats",
@@ -170,7 +68,72 @@
             "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/4.png"
           ],
           "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/thumbnail.png"
->>>>>>> Shashwath
+        }
+      ],
+      "cart": [
+        {
+          "id": "89",
+          "title": "Nike Baseball Cleats",
+          "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+          "category": "mens-shoes",
+          "price": 79.99,
+          "discountPercentage": 11.4,
+          "rating": 4.01,
+          "stock": 14,
+          "itemCount": 2,
+          "tags": [
+            "footwear",
+            "sports cleats"
+          ],
+          "brand": "Nike",
+          "sku": "81LRTRP5",
+          "weight": 7,
+          "dimensions": {
+            "width": 14.83,
+            "height": 19.16,
+            "depth": 28.98
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "William Gonzalez",
+              "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Not worth the price!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Sophia Brown",
+              "reviewerEmail": "sophia.brown@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Gabriel Mitchell",
+              "reviewerEmail": "gabriel.mitchell@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 3,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "0517654748946",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/thumbnail.png"
         }
       ]
     },
