@@ -47,6 +47,12 @@ export class HeaderComponent {
  
   onLogout()
   {
-    this.loginObs.onLoggingInHandler({refresh:true})
+    // this.userDetails.onLogin({username:''});
+    // setTimeout(()=>{
+    //   this.headerCounts.updateCount();
+    // },2000);
+    // this.loginObs.onLoggingInHandler({refresh:true})
+
+    this.loginObs.onLoggingInHandler({refresh:false})
   }
 }
