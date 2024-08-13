@@ -6,6 +6,136 @@
       "password": "j",
       "wishlist": [
         {
+          "id": "178",
+          "title": "Corset Leather With Skirt",
+          "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
+          "category": "womens-dresses",
+          "price": 89.99,
+          "discountPercentage": 19.26,
+          "rating": 2.52,
+          "stock": 59,
+          "itemCount": 1,
+          "tags": [
+            "clothing",
+            "corsets",
+            "skirts"
+          ],
+          "sku": "TU384RG4",
+          "weight": 1,
+          "dimensions": {
+            "width": 19.1,
+            "height": 27.47,
+            "depth": 29.95
+          },
+          "warrantyInformation": "6 months warranty",
+          "shippingInformation": "Ships overnight",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Very unhappy with my purchase!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Mason Parker",
+              "reviewerEmail": "mason.parker@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Would not recommend!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Grace Green",
+              "reviewerEmail": "grace.green@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Madison Stewart",
+              "reviewerEmail": "madison.stewart@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 4,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.627Z",
+            "updatedAt": "2024-05-23T08:56:21.627Z",
+            "barcode": "5612433310069",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/1.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/2.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/3.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20Leather%20With%20Skirt/thumbnail.png"
+        },
+        {
+          "id": "179",
+          "title": "Corset With Black Skirt",
+          "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
+          "category": "womens-dresses",
+          "price": 79.99,
+          "discountPercentage": 14.61,
+          "rating": 3,
+          "stock": 67,
+          "itemCount": 1,
+          "tags": [
+            "clothing",
+            "corsets",
+            "skirts"
+          ],
+          "sku": "KM6VKT38",
+          "weight": 6,
+          "dimensions": {
+            "width": 9.79,
+            "height": 26.72,
+            "depth": 14.21
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Nolan Bryant",
+              "reviewerEmail": "nolan.bryant@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Julian Newton",
+              "reviewerEmail": "julian.newton@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.627Z",
+              "reviewerName": "Elena Baker",
+              "reviewerEmail": "elena.baker@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "No return policy",
+          "minimumOrderQuantity": 3,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.627Z",
+            "updatedAt": "2024-05-23T08:56:21.627Z",
+            "barcode": "1585516684321",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/1.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/2.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/3.png",
+            "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/4.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/womens-dresses/Corset%20With%20Black%20Skirt/thumbnail.png"
+        }
+      ],
+      "cart": [
+        {
           "id": "89",
           "title": "Nike Baseball Cleats",
           "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
@@ -69,8 +199,7 @@
           ],
           "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/thumbnail.png"
         }
-      ],
-      "cart": []
+      ]
     },
     {
       "id": "547a",
@@ -212,6 +341,13 @@
     {
       "id": "5b86",
       "username": "d",
+      "password": "d",
+      "wishlist": [],
+      "cart": []
+    },
+    {
+      "id": "ac7d",
+      "username": "de",
       "password": "d",
       "wishlist": [],
       "cart": []

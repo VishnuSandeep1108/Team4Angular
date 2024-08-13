@@ -9,14 +9,14 @@
         </div>
 
         <form id="LoginForm" class="form-content">
-            <input type="text" placeholder="Username" name="username" [(ngModel)]="username" required>
+            <input type="text" placeholder="Username" name="username" [(ngModel)]="username" autocomplete="off" required>
             <input type="password" placeholder="Password" name="password" [(ngModel)]="password" required>
             <button type="submit" class="btn" (click)="onLoginHandler($event)">Login</button>
             <!-- <a href="#">Forgot Password?</a> -->
         </form>
 
         <form id="RegForm" class="form-content">
-            <input type="text" placeholder="Username" name="username" [(ngModel)]="username" required>
+            <input type="text" placeholder="Username" name="username" [(ngModel)]="username" autocomplete="off" required>
             <input type="password" placeholder="Password" name="password" [(ngModel)]="password" required>
             <button type="submit" class="btn" (click)="onRegisterHandler($event)">Register</button>
         </form>
